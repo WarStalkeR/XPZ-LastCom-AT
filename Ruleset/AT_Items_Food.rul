@@ -1,0 +1,84 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_CHOCOLATE
+    refNode: *FLAT_TIME
+  - update: STR_COCONUT
+    refNode: *FLAT_TIME
+  - update: STR_MELON
+    refNode: *FLAT_TIME
+  - update: STR_EGGPLANT
+    refNode: *FLAT_TIME
+  - update: STR_BANANAS
+    refNode: *FLAT_TIME
+  - update: STR_PUMPKIN
+    refNode: *FLAT_TIME
+  - update: STR_DEVILS_PEPPER
+    refNode: *FLAT_TIME
+  - update: STR_RED_PEPPER
+    refNode: *FLAT_TIME
+  - update: STR_GRAPES
+    refNode: *FLAT_TIME
+  - update: STR_POTATO
+    refNode: *FLAT_TIME
+  - update: STR_PEAR
+    refNode: *FLAT_TIME
+  - update: STR_LEEK
+    refNode: *FLAT_TIME
+  - update: STR_UBER_WHEAT
+    refNode: *FLAT_TIME
+  - update: STR_CABBAGE
+    refNode: *FLAT_TIME
+  - update: STR_GARLIC
+    refNode: *FLAT_TIME
+  - update: STR_ORANGE
+    refNode: *FLAT_TIME
+  - update: STR_APPLE
+    refNode: *FLAT_TIME
+  - update: STR_PINECONE
+    refNode: *FLAT_TIME
+  - update: STR_FERN
+    refNode: *FLAT_TIME
+  - update: STR_SECTOWEED
+    refNode: *FLAT_TIME
+  - update: STR_SECFLOWER
+    refNode: *FLAT_TIME
+  - update: STR_SHROOM_WHITE
+    refNode: *FLAT_TIME
+  - update: STR_SHROOM_BROWN
+    refNode: *FLAT_TIME
+  - update: STR_SHROOM_RED
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_MEAT
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_FISH
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_EGG
+    refNode: *FLAT_TIME
+  - update: STR_DEEP_ONE_MEAL
+    refNode: *FLAT_TIME
+  - update: STR_LOBSTERMAN_MEAL
+    refNode: *FLAT_TIME
+  - update: STR_REAPER_MEAL
+    refNode: *FLAT_TIME
+  - update: STR_BOOMOSAURUS_MEAL
+    refNode: *FLAT_TIME
+  - update: STR_ETHEREAL_MEAL
+    refNode: *FLAT_TIME
+  - update: STR_CAKE
+    refNode: *FLAT_TIME
+  - update: STR_WATER_OF_LIFE
+    refNode: *FLAT_TIME
+  - update: STR_DEMON_HEART
+    refNode: *FLAT_TIME
+  - update: STR_MANA_POTION
+    refNode: *FLAT_TIME

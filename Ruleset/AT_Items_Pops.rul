@@ -1,0 +1,64 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_WORKER
+    refNode: *FLAT_TIME
+  - update: STR_OGRE_WORKER
+    refNode: *FLAT_TIME
+  - update: STR_ZOMBIE_WORKER
+    refNode: *FLAT_TIME
+  - update: STR_COURTESAN
+    refNode: *FLAT_TIME
+  - update: STR_DANCER_SLAVE
+    refNode: *FLAT_TIME
+  - update: STR_SQUIRE
+    refNode: *FLAT_TIME
+  - update: STR_YEOMAN
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_MAID
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_BRUTE
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_GLADIATRIX
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_SKILLED
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_MANAGER
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_MAGICAL
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_HALFWIT
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_MAID_SUPER
+    refNode: *FLAT_TIME
+  - update: STR_ZOMBIE_MAID
+    refNode: *FLAT_TIME
+  - update: STR_SUCCUBUS_MAID
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_ROBOT
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_SERVITOR
+    refNode: *FLAT_TIME
+  - update: STR_FARMHOUSE
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_NINJA_CHAMPION
+    refNode: *FLAT_TIME
+  - update: STR_SLAVE_X
+    refNode: *FLAT_TIME
+  - update: STR_STASIS_POD_GAL
+    refNode: *FLAT_TIME
+  - update: STR_STASIS_POD_GNOME
+    refNode: *FLAT_TIME
+  - update: STR_STASIS_POD_GREEN_GAL
+    refNode: *FLAT_TIME

@@ -1,0 +1,642 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_PILE_OF_GORE
+    refNode: *FLAT_TIME
+  - update: MUTILATED_CORPSE_M1
+    refNode: *FLAT_TIME
+  - update: MUTILATED_CORPSE_F1
+    refNode: *FLAT_TIME
+  - update: STR_SGR_D-GUY_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_ETHEREAL_SOLDIER_CORPSE_DECORATION
+    refNode: *FLAT_TIME
+  - update: STR_ETHEREAL_SCIENTIST_CORPSE_DECORATION
+    refNode: *FLAT_TIME
+  - update: DOOM_DEMON_CORPSE_1_DECORATION
+    refNode: *FLAT_TIME
+  - update: ATURRET_BIG_CORPSE_1_DECORATION
+    refNode: *FLAT_TIME
+  - update: ATURRET_SMALL_CORPSE_DECORATION
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE
+    refNode: *FLAT_TIME
+  - update: QUAD_CORPSE_1
+    refNode: *FLAT_TIME
+  - update: QUAD_CORPSE_2
+    refNode: *FLAT_TIME
+  - update: QUAD_CORPSE_3
+    refNode: *FLAT_TIME
+  - update: QUAD_CORPSE_4
+    refNode: *FLAT_TIME
+  - update: BIKE_CORPSE_1
+    refNode: *FLAT_TIME
+  - update: BIKE_CORPSE_2
+    refNode: *FLAT_TIME
+  - update: BIKE_CORPSE_3
+    refNode: *FLAT_TIME
+  - update: BIKE_CORPSE_4
+    refNode: *FLAT_TIME
+  - update: HOVERBIKE_CORPSE_1
+    refNode: *FLAT_TIME
+  - update: HOVERBIKE_CORPSE_2
+    refNode: *FLAT_TIME
+  - update: HOVERBIKE_CORPSE_3
+    refNode: *FLAT_TIME
+  - update: HOVERBIKE_CORPSE_4
+    refNode: *FLAT_TIME
+  - update: HYENA_RIDER_CORPSE_1
+    refNode: *FLAT_TIME
+  - update: HYENA_RIDER_CORPSE_2
+    refNode: *FLAT_TIME
+  - update: HYENA_RIDER_CORPSE_3
+    refNode: *FLAT_TIME
+  - update: HYENA_RIDER_CORPSE_4
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_NUDE_DREAMLAND
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SP_BABYDOLL
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_GREMRIN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_MAGICAL_OUTFIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GOWN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TOPLESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PANTLESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_CASTAWAY
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_UNARMORED
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GANGER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_RAGS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HERMIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SAILOR_UNIFORM
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_CLOTHING
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_ROGUE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_ROBBER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_SWASHBUCKLER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PIR_OFFICER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SMOKEY
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SMOKEY_MK2
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_CARBON_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_THIEF_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_THIEF_ARMOR_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_CHILLER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SPACE_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SPACE_SUIT_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_UAC_SPACE_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_UAC_SPACE_SUIT_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SPACE_POD
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_RUNT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BRAINER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BRAINER_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GYM
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SWIMSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BIKINI
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_MARTYR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_THEBAN_DRESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PARTY_DRESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_WENCH
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_MEIDO
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PATIENT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NURSE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NURSE_ADV
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_MEDSPIDER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_AMAZON
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BARBARIAN_FURS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SAVAGE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SCALE_MAIL
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BASIC_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_AGGRESSOR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_KEVLAR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SNIPER_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HEAVY_KEVLAR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TAC_VEST
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TAC_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TAC_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TAC_FULL_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ASSAULT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ASSAULT_2
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_IRONMAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_IRONMAN_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOOTED_RAIDER_BOSS_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ASSASSIN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HOVER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_STORM_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DEFENDER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GUARDIAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LEATHERS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_METAL
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PLATE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_REVENANT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SUIT_WRECKED
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SUIT_KUSTOM
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SUIT_ADV
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SUIT_ADV_EVA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BIO_SUIT_ADV
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BIO_SUIT_NECRO
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTHSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BRUTE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ZORTRIUM_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_VAMPY
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_VOODOO
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_STEALTH
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SORCERESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HOLOSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_FORCE_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_FORCE_ARMOR_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GRAV_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BLITZ_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_CRYSTALISK_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOADER_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ANNIHILATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ANNIHILATOR_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GRAVBALL
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NIGHT_OPS_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DEMONIC_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_INFERNA_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_ARRANCAR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_UNARMORED
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_PUNK
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_RATMEISTER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_ASSASSIN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_COAT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_CYBERPUNK
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_SLAYER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_PLATE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_SYNTHSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_NIGHTFLYER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_SPEAKER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_CUMMISSAR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_LOKNAR_SPACE_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SHADOW_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_NUDE_A
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_NUDE_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_CATSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_CHILLER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_CHILLER_A
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_CHILLER_A_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_DANCER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_SPACE_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_SPACE_SUIT_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_PIR_STEALTHSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_JUGULATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SYNTH_JUGULATOR_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_SAINT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_PIROMAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_CRUSADER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PILLOW_KNIGHT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_PIRATE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_MISFORTUNE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_PUNK
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_JUMPSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_DURASUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_TAC_VEST
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_DEFENDER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_REBELSTAR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_GI
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_ARMOR_POINTMAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_ARMOR_STRONGMAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_ARMOR_DEMOLISHER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_ARMOR_CLEANSER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_LEGION
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_DOOM
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_DOOM_2
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_OPERATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SKYKNIGHT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_CENTURION
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_IMMOLATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_MEDIC_POWERSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_SPACE_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLAVE_SPACE_SUIT_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_POLAR_OUTFIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SUPER_SLAVE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GREEN_LIGHTER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BAT_GLAD
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_FLASH_BANG
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DIVER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_HUNTER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_FURS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DAMSEL_FURS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DAMSEL_PATRON
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_SAILOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_DRESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_SCAVENGER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_GLADIATRIX
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_MEIDO
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_RAVEN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_MILITIA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_JUMPSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_DURASUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_TAC_VEST
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TAC_ARMOR_PEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_STALKER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_CAMO
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_FUSILIER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_LEGION
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_NURSE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NUN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_FEM_ASSAULTSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_BIOAQUA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_PSICORPS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_PEASANT_GLITTER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_THONG
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_ADVISOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_THINMAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_PSICRYSTAL
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_PSICRYSTAL_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_JUMPSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_TAC_VEST
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_CYBERARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_HYBRID_DISRUPTOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_TRUNKS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_BREECHES
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_PIROMAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_MASTERBLASTER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_LIQUIDATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_VINDICATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_POWERSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_SYNTHSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_OGRE_ANNIHILATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_DRESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_BIKINI
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_GLITTER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_EXPERIMENT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_EXPLORER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_EXPLORER_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_ENGINEER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_CAMO_PAINT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_COMBAT_JACKET
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_TAC_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_MOONGOOSE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_MOONGOOSE_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_NUDE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_BELLE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_PRISONER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_BIKINI
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_PARTY_DRESS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_PIRATE_OUTFIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_FUR_COAT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_MEIDO
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_THIEF
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_THIEF_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_STS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_HERBALIST
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_MUSCLE_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_SAMURAI
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ONI
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_UNIPUMA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_PILOT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ACE_PILOT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ACE_PILOT_EVA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ACE_PILOT_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ACE_PILOT_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_SPACE_SUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_SPACE_SUIT_SEA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_SPACE_SUIT_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_POWER_GREEN_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_POWER_RED_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_PATIENT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_CAMO_PAINT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_KEVLAR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_WITCH
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_TAC_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_TAC_HELM_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_COMBAT_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_IRONCAT_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_GRAV_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_HOLOSUIT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_BLITZ_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_PEACEMAKER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ANNIHILATOR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ANNIHILATOR_EVA
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_ANNIHILATOR_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_TERMICATOR_ARMOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_TERMICATOR_ARMOR_SPACE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_NEKO_NUDE_DREAMLAND
+    refNode: *FLAT_TIME
+  - update: NEKO_HOVERBIKE_CORPSE_1
+    refNode: *FLAT_TIME
+  - update: NEKO_HOVERBIKE_CORPSE_2
+    refNode: *FLAT_TIME
+  - update: NEKO_HOVERBIKE_CORPSE_3
+    refNode: *FLAT_TIME
+  - update: NEKO_HOVERBIKE_CORPSE_4
+    refNode: *FLAT_TIME
+  - update: STR_DOGE_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_DOG_TAC_ARMOR_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_DOG_RED_SHIELD_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_BLOODOGE_ARMORED_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_BLOODOGE_SLIME_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_PARROT_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DULLAHAN
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SLIMEGAL
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_KILLBOT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_XENFORCER
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_XENFORCER_ZORTRIUM
+    refNode: *FLAT_TIME
+  - update: STR_DEAD_BEES
+    refNode: *FLAT_TIME
+  - update: STR_WHITERABBIT_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_BLACKCAT_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_ROBO_PARROT_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_CHORT
+    refNode: *FLAT_TIME
+  - update: STR_BOXX_CORPSE
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_TRIARIUS
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_DEVASTATOR
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_SKULLSTRIDER
+    refNode: *FLAT_TIME
+  - update: STR_SYNTH_CORPSE
+    refNode: *FLAT_TIME

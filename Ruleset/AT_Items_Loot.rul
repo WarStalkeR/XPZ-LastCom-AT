@@ -1,0 +1,194 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_SCRAP_METAL
+    refNode: *FLAT_TIME
+  - update: STR_CHEMICALS
+    refNode: *FLAT_TIME
+  - update: STR_SC_WIRE
+    refNode: *FLAT_TIME
+  - update: STR_ALIEN_ALLOYS
+    refNode: *FLAT_TIME
+  - update: STR_ELERIUM_115
+    refNode: *FLAT_TIME
+  - update: STR_FUEL_CAPSULE
+    refNode: *FLAT_TIME
+  - update: STR_ARC_WELDER
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_WEAPON_ADV
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_WEAPON_MC
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_LASER_LENS
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_LASER_CRYSTAL
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_GAUSS_COIL
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_GAUSS_CAPACITOR
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_PLASMA_CHAMBER
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_PLASMA_ACCELERATOR
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_WEAPON_PSI
+    refNode: *FLAT_TIME
+  - update: STR_PARTS_HEAVY_COUPLINGS
+    refNode: *FLAT_TIME
+  - update: STR_UFO_POWER_SOURCE_SMALL
+    refNode: *FLAT_TIME
+  - update: STR_UFO_NAVIGATION
+    refNode: *FLAT_TIME
+  - update: STR_EM_JAMMER
+    refNode: *FLAT_TIME
+  - update: STR_TINY_DRILL
+    refNode: *FLAT_TIME
+  - update: STR_FOOD_BAG
+    refNode: *FLAT_TIME
+  - update: STR_CONSUMER_GOODS
+    refNode: *FLAT_TIME
+  - update: STR_MEDICAL_SUPPLIES
+    refNode: *FLAT_TIME
+  - update: STR_LONGEVITY_SERUM
+    refNode: *FLAT_TIME
+  - update: STR_ORGAN_CARRIER
+    refNode: *FLAT_TIME
+  - update: STR_CYBERORGAN
+    refNode: *FLAT_TIME
+  - update: STR_ELECTRONIC_PIECES
+    refNode: *FLAT_TIME
+  - update: STR_GENIUS_LOCI
+    refNode: *FLAT_TIME
+  - update: STR_ORE
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_PREPPER
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_EXPEDITION
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_OLD_EARTH_WEAPONS
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_SUPPLIES
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_SMUGGLER
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_NINJA
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_GOVT_PRIZE
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_MRSHAN
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_MRSHAN_HEAVY
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_HYPERWEAPONS
+    refNode: *FLAT_TIME
+  - update: STR_LOOTBOX_ARCANE
+    refNode: *FLAT_TIME
+  - update: STR_BEAUTY_FORMULA
+    refNode: *FLAT_TIME
+  - update: STR_NUCLEAR_MATERIALS
+    refNode: *FLAT_TIME
+  - update: STR_NUCLEAR_BATT
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_NUCLEAR_BATT
+    refNode: *FLAT_TIME
+  - update: STR_UAC_PLASMAGUN_BATTERY_BROKEN
+    refNode: *FLAT_TIME
+  - update: STR_BFG_BATTERY_BROKEN
+    refNode: *FLAT_TIME
+  - update: STR_BOOT
+    refNode: *FLAT_TIME
+  - update: STR_SKULL
+    refNode: *FLAT_TIME
+  - update: STR_SKULL_BIG
+    refNode: *FLAT_TIME
+  - update: STR_JUNK_PILE
+    refNode: *FLAT_TIME
+  - update: STR_BIG_ROCK
+    refNode: *FLAT_TIME
+  - update: STR_WRECKED_XENFORCER
+    refNode: *FLAT_TIME
+  - update: STR_SIMULACRUM_TORSO
+    refNode: *FLAT_TIME
+  - update: STR_SIMULACRUM_ARMS
+    refNode: *FLAT_TIME
+  - update: STR_SIMULACRUM_LEGS
+    refNode: *FLAT_TIME
+  - update: STR_SIMULACRUM_HEART
+    refNode: *FLAT_TIME
+  - update: STR_SIMULACRUM_BRAIN
+    refNode: *FLAT_TIME
+  - update: STR_SIMULACRUM_INACTIVE
+    refNode: *FLAT_TIME
+  - update: STR_ZOMBIE_ESSENCE
+    refNode: *FLAT_TIME
+  - update: STR_VAMPIRE_ESSENCE
+    refNode: *FLAT_TIME
+  - update: STR_ZOMBIE_BRAIN
+    refNode: *FLAT_TIME
+  - update: STR_SUCCUBUS_WINGS
+    refNode: *FLAT_TIME
+  - update: STR_PRINCES_GIFT
+    refNode: *FLAT_TIME
+  - update: STR_THEBAN_ASSAULT_CLONE_LICENSE
+    refNode: *FLAT_TIME
+  - update: STR_MYSTERY_BOX
+    refNode: *FLAT_TIME
+  - update: STR_DREAM_ECHO
+    refNode: *FLAT_TIME
+  - update: STR_CHRONO_CRYPTEX
+    refNode: *FLAT_TIME
+  - update: STR_ZORTRIUM_CRYSTAL
+    refNode: *FLAT_TIME
+  - update: STR_LIVING_BRIMSTONE
+    refNode: *FLAT_TIME
+  - update: STR_GLITTERDUST
+    refNode: *FLAT_TIME
+  - update: STR_MEGASCORPION_POISON
+    refNode: *FLAT_TIME
+  - update: STR_MEGASCORPION_STING
+    refNode: *FLAT_TIME
+  - update: STR_SPIDER_SILK
+    refNode: *FLAT_TIME
+  - update: STR_MONSTER_TEETH
+    refNode: *FLAT_TIME
+  - update: STR_MONSTER_EYE
+    refNode: *FLAT_TIME
+  - update: STR_VAMPIRE_BLOOD
+    refNode: *FLAT_TIME
+  - update: STR_SHARKMAN_OIL
+    refNode: *FLAT_TIME
+  - update: STR_WEREWOLF_TESTICLES
+    refNode: *FLAT_TIME
+  - update: STR_REAPER_HIDE
+    refNode: *FLAT_TIME
+  - update: STR_LIZARD_HIDE
+    refNode: *FLAT_TIME
+  - update: STR_LUXURY_FUR
+    refNode: *FLAT_TIME
+  - update: STR_LOBSTERMAN_HIDE
+    refNode: *FLAT_TIME
+  - update: STR_CELATID_HIDE
+    refNode: *FLAT_TIME
+  - update: STR_CHRYSSALID_HIDE
+    refNode: *FLAT_TIME
+  - update: STR_REAPER_MEAT
+    refNode: *FLAT_TIME
+  - update: STR_BOOMOSAURUS_MEAT
+    refNode: *FLAT_TIME
+  - update: STR_DEEP_ONE_MEAT
+    refNode: *FLAT_TIME
+  - update: STR_LOBSTERMAN_MEAT
+    refNode: *FLAT_TIME
+  - update: STR_GENERIC_CRATE
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_CRATE
+    refNode: *FLAT_TIME

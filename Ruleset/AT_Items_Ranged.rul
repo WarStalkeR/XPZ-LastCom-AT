@@ -1,0 +1,752 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_BOW_PRIMITIVE
+    refNode: *FLAT_TIME
+  - update: STR_BOW_H
+    refNode: *FLAT_TIME
+  - update: STR_BOW
+    refNode: *FLAT_TIME
+  - update: STR_SURVIVAL_BOW
+    refNode: *FLAT_TIME
+  - update: STR_LONGBOW
+    refNode: *FLAT_TIME
+  - update: STR_BOW_NEON
+    refNode: *FLAT_TIME
+  - update: STR_TASER
+    refNode: *FLAT_TIME
+  - update: STR_BLOWPIPE
+    refNode: *FLAT_TIME
+  - update: STR_BAGPIPES
+    refNode: *FLAT_TIME
+  - update: STR_XBOW
+    refNode: *FLAT_TIME
+  - update: STR_XBOW_CORAL
+    refNode: *FLAT_TIME
+  - update: STR_FLINTLOCK_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_CLOCKWORK_GUN
+    refNode: *FLAT_TIME
+  - update: STR_FLINTLOCK_MUSKET
+    refNode: *FLAT_TIME
+  - update: STR_FLINTLOCK_MUSKET_B
+    refNode: *FLAT_TIME
+  - update: STR_JEZZAIL
+    refNode: *FLAT_TIME
+  - update: STR_HARQUEBUS
+    refNode: *FLAT_TIME
+  - update: STR_AIR_MUSKET
+    refNode: *FLAT_TIME
+  - update: STR_PEPPER_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_SUPER_STAPLER
+    refNode: *FLAT_TIME
+  - update: STR_DART_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_HARPOON
+    refNode: *FLAT_TIME
+  - update: STR_HARPOON_CARBINE
+    refNode: *FLAT_TIME
+  - update: STR_RETICULAN_ELECTROGUN
+    refNode: *FLAT_TIME
+  - update: STR_MEGAVOLT
+    refNode: *FLAT_TIME
+  - update: STR_ZAP_GUN
+    refNode: *FLAT_TIME
+  - update: STR_LASER_FIST
+    refNode: *FLAT_TIME
+  - update: STR_LASER_BALL
+    refNode: *FLAT_TIME
+  - update: STR_HELLFIST
+    refNode: *FLAT_TIME
+  - update: STR_PISTOL_LT
+    refNode: *FLAT_TIME
+  - update: STR_BLACK_ADDER
+    refNode: *FLAT_TIME
+  - update: STR_REVOLVER_LT
+    refNode: *FLAT_TIME
+  - update: STR_OLD_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_OLD_PISTOL_2
+    refNode: *FLAT_TIME
+  - update: STR_OLD_REVOLVER
+    refNode: *FLAT_TIME
+  - update: STR_REVOLVER
+    refNode: *FLAT_TIME
+  - update: STR_REVOLVER_POLICE
+    refNode: *FLAT_TIME
+  - update: STR_PEACEMAKER
+    refNode: *FLAT_TIME
+  - update: STR_MAUSER
+    refNode: *FLAT_TIME
+  - update: STR_LUGER
+    refNode: *FLAT_TIME
+  - update: STR_PISTOL_SILENCED
+    refNode: *FLAT_TIME
+  - update: STR_SPY_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_PISTOL_BM
+    refNode: *FLAT_TIME
+  - update: STR_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_PISTOL_ADV
+    refNode: *FLAT_TIME
+  - update: STR_COLT45
+    refNode: *FLAT_TIME
+  - update: STR_SNUBBY
+    refNode: *FLAT_TIME
+  - update: STR_LIQUIDATOR_GUN
+    refNode: *FLAT_TIME
+  - update: STR_COMMANDO_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_PREDATOR_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_OLD_MAGNUM
+    refNode: *FLAT_TIME
+  - update: STR_GOVT_MAGNUM
+    refNode: *FLAT_TIME
+  - update: STR_MAGNUM
+    refNode: *FLAT_TIME
+  - update: STR_SUPER_MAGNUM
+    refNode: *FLAT_TIME
+  - update: STR_UAC_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_NINJA_CARBINE
+    refNode: *FLAT_TIME
+  - update: STR_SLUGGA
+    refNode: *FLAT_TIME
+  - update: STR_SLUGGA_MK2
+    refNode: *FLAT_TIME
+  - update: STR_CONCEALABLE_RR
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL_MINI
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL_LT
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL_SNUB
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL_M
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL_DUELIST
+    refNode: *FLAT_TIME
+  - update: STR_ES_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_SR_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_GAUSS_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_HORNET
+    refNode: *FLAT_TIME
+  - update: STR_KRUGER
+    refNode: *FLAT_TIME
+  - update: STR_IGUN
+    refNode: *FLAT_TIME
+  - update: STR_HAXXOR
+    refNode: *FLAT_TIME
+  - update: STR_PLASMA_PISTOL_LT
+    refNode: *FLAT_TIME
+  - update: STR_BLACK_DRAGON_PLASMAGUN
+    refNode: *FLAT_TIME
+  - update: STR_RAYGUN
+    refNode: *FLAT_TIME
+  - update: STR_RAY_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SONIC_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_HEAT_RAY_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_DEATH_BLASTER
+    refNode: *FLAT_TIME
+  - update: STR_TEC9
+    refNode: *FLAT_TIME
+  - update: STR_SMG
+    refNode: *FLAT_TIME
+  - update: STR_SMG_SPIKED
+    refNode: *FLAT_TIME
+  - update: STR_SMG_SPIKED_HOLO
+    refNode: *FLAT_TIME
+  - update: STR_SMG_RAMSH
+    refNode: *FLAT_TIME
+  - update: STR_SKORPION
+    refNode: *FLAT_TIME
+  - update: STR_LYNX
+    refNode: *FLAT_TIME
+  - update: STR_LAWGIVER
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_SMG_ADV
+    refNode: *FLAT_TIME
+  - update: STR_PAINBRINGER
+    refNode: *FLAT_TIME
+  - update: STR_DEATH_BLOSSOM
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL_PIR
+    refNode: *FLAT_TIME
+  - update: STR_ASSAULT_LASER
+    refNode: *FLAT_TIME
+  - update: STR_XG_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_BOOTLEG_PLASMA_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_PIR_PLASMA_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_PIR_PLASMA_PISTOL_2
+    refNode: *FLAT_TIME
+  - update: STR_ELITE_PLASMA_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_HELL_SMG
+    refNode: *FLAT_TIME
+  - update: STR_CD_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_LASER_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_PLASMA_CASTER
+    refNode: *FLAT_TIME
+  - update: STR_SAWED_OFF
+    refNode: *FLAT_TIME
+  - update: STR_SUPER_SAWED_OFF
+    refNode: *FLAT_TIME
+  - update: STR_DB_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_FIST
+    refNode: *FLAT_TIME
+  - update: STR_SMALL_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_MINI_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_G
+    refNode: *FLAT_TIME
+  - update: STR_COACH_GUN
+    refNode: *FLAT_TIME
+  - update: STR_GNOME_GUN
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_LT
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_POLICE
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_ADV
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_SHIELD
+    refNode: *FLAT_TIME
+  - update: STR_BABY_BOOMER
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_PA
+    refNode: *FLAT_TIME
+  - update: STR_UAC_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_ASG12
+    refNode: *FLAT_TIME
+  - update: STR_COMBAT_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_COMBAT_SHOTGUN_B
+    refNode: *FLAT_TIME
+  - update: STR_STREET_SWEEPER
+    refNode: *FLAT_TIME
+  - update: STR_NINJA_SAWED_OFF
+    refNode: *FLAT_TIME
+  - update: STR_BLUNDERBUSS
+    refNode: *FLAT_TIME
+  - update: STR_BLUNDERBUSS_ADV
+    refNode: *FLAT_TIME
+  - update: STR_SLUGTHROWER
+    refNode: *FLAT_TIME
+  - update: STR_CAWS
+    refNode: *FLAT_TIME
+  - update: STR_SUPER_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_MAMMOTH_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_OGRE_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_BOOM_GUN
+    refNode: *FLAT_TIME
+  - update: STR_LASLOCK_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_SR_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_SCATTER_LASER
+    refNode: *FLAT_TIME
+  - update: STR_HELL_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_FLAK_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_PIR_HEAVY_BOLTER
+    refNode: *FLAT_TIME
+  - update: STR_FLECHETTE_GUN
+    refNode: *FLAT_TIME
+  - update: STR_PLASMA_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_UAC_CARBINE
+    refNode: *FLAT_TIME
+  - update: STR_HSMG
+    refNode: *FLAT_TIME
+  - update: STR_MP40
+    refNode: *FLAT_TIME
+  - update: STR_WOLFGUN
+    refNode: *FLAT_TIME
+  - update: STR_PPSH
+    refNode: *FLAT_TIME
+  - update: STR_PPSH_3
+    refNode: *FLAT_TIME
+  - update: STR_PPSH_4
+    refNode: *FLAT_TIME
+  - update: STR_MP
+    refNode: *FLAT_TIME
+  - update: STR_SMG_10MM
+    refNode: *FLAT_TIME
+  - update: STR_MINI_SMG
+    refNode: *FLAT_TIME
+  - update: STR_ASMG
+    refNode: *FLAT_TIME
+  - update: STR_SMG_50CAL
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_SMG
+    refNode: *FLAT_TIME
+  - update: STR_TOMMYGUN
+    refNode: *FLAT_TIME
+  - update: STR_TOMMYGUN_LASER
+    refNode: *FLAT_TIME
+  - update: STR_SCOURGE_SMG
+    refNode: *FLAT_TIME
+  - update: STR_STORM_LASER
+    refNode: *FLAT_TIME
+  - update: STR_LASER_CARBINE
+    refNode: *FLAT_TIME
+  - update: STR_MPG
+    refNode: *FLAT_TIME
+  - update: STR_TOMMYGUN_PLASMA
+    refNode: *FLAT_TIME
+  - update: STR_BOOTLEG_PLASMA_SUB
+    refNode: *FLAT_TIME
+  - update: STR_PIR_PLASMA_SUB
+    refNode: *FLAT_TIME
+  - update: STR_RAMJET_HARPOON
+    refNode: *FLAT_TIME
+  - update: STR_HARPOON_AUTO
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_LT
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_AK
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_AK_B
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_AK_FUTURE
+    refNode: *FLAT_TIME
+  - update: STR_COMPACT_CARBINE
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_M16
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_SA80
+    refNode: *FLAT_TIME
+  - update: STR_RUGER
+    refNode: *FLAT_TIME
+  - update: STR_ZEERUST_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_AUTO_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_ADV
+    refNode: *FLAT_TIME
+  - update: STR_INFANTRY_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_BATTLE_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_OMEGA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_ALPHA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_SNIPER_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SMARTRIFLE
+    refNode: *FLAT_TIME
+  - update: STR_COVERT_OPS_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_UAC_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_NINJA_SMG
+    refNode: *FLAT_TIME
+  - update: STR_SHOOTA
+    refNode: *FLAT_TIME
+  - update: STR_SHOOTA_MK2
+    refNode: *FLAT_TIME
+  - update: STR_KILLGUN
+    refNode: *FLAT_TIME
+  - update: STR_SHOOTA_MK3
+    refNode: *FLAT_TIME
+  - update: STR_AT_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SUPERHEAVY_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_LASER_SUPERCHARGER
+    refNode: *FLAT_TIME
+  - update: STR_LASER_RIFLE_M
+    refNode: *FLAT_TIME
+  - update: STR_LASER_RIFLE_PIR
+    refNode: *FLAT_TIME
+  - update: STR_LASER_RIFLE_2
+    refNode: *FLAT_TIME
+  - update: STR_LASER_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_ES_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_MARSEC_LASGUN
+    refNode: *FLAT_TIME
+  - update: STR_BATTLE_LASER
+    refNode: *FLAT_TIME
+  - update: STR_RETICULAN_LASER_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_RETICULAN_LASER_GUN
+    refNode: *FLAT_TIME
+  - update: STR_DESTRUCTOR_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_RAIL_RIFLE_OLD
+    refNode: *FLAT_TIME
+  - update: STR_GAUSS_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_RAIL_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_XG_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SONIC_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_WARP_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_HELL_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_BIOPLASMA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_RETICULAN_PLASMA_GUN
+    refNode: *FLAT_TIME
+  - update: STR_NOVA_PLASMA_GUN
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_PARTICLE_GUN
+    refNode: *FLAT_TIME
+  - update: STR_LPG
+    refNode: *FLAT_TIME
+  - update: STR_WYVERN_PLASMA_GUN
+    refNode: *FLAT_TIME
+  - update: STR_BOOTLEG_PLASMA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_PIR_PLASMA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_BOOTLEG_HEAVY_PLASMA
+    refNode: *FLAT_TIME
+  - update: STR_PIR_HEAVY_PLASMA
+    refNode: *FLAT_TIME
+  - update: STR_ELITE_HEAVY_PLASMA
+    refNode: *FLAT_TIME
+  - update: STR_BATTLE_PLASMA
+    refNode: *FLAT_TIME
+  - update: STR_CD_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_WINCHESTER
+    refNode: *FLAT_TIME
+  - update: STR_VARMINT_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SPORTS_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_HUNTING_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_HUNTING_RIFLE_ADV
+    refNode: *FLAT_TIME
+  - update: STR_SCOUT_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_ZIPGUN
+    refNode: *FLAT_TIME
+  - update: STR_OLD_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_OLD_SNIPER_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_DRAGOON_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_NITRO_EXPRESS
+    refNode: *FLAT_TIME
+  - update: STR_BM_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_COMMANDO_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_INFANTRY_LASER
+    refNode: *FLAT_TIME
+  - update: STR_HUNTING_LASER
+    refNode: *FLAT_TIME
+  - update: STR_NARLOCK_LASGUN
+    refNode: *FLAT_TIME
+  - update: STR_ES_SNIPER
+    refNode: *FLAT_TIME
+  - update: STR_SR_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_FLINTLOCK_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SNIPER_RIFLE_LT
+    refNode: *FLAT_TIME
+  - update: STR_SNIPER_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_SNIPER_RIFLE_ADV
+    refNode: *FLAT_TIME
+  - update: STR_HSR
+    refNode: *FLAT_TIME
+  - update: STR_UAC_LASER_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_MARKSMAN_LASER
+    refNode: *FLAT_TIME
+  - update: STR_SNIPER_LASER_PIR
+    refNode: *FLAT_TIME
+  - update: STR_SNIPER_LASER
+    refNode: *FLAT_TIME
+  - update: STR_XG_SNIPER_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_GAUSS_SNIPER
+    refNode: *FLAT_TIME
+  - update: STR_PRECISION_PLASMA
+    refNode: *FLAT_TIME
+  - update: STR_SAW
+    refNode: *FLAT_TIME
+  - update: STR_SAW_GYRO
+    refNode: *FLAT_TIME
+  - update: STR_SAW_MERIDIAN
+    refNode: *FLAT_TIME
+  - update: STR_SAW_GNOME
+    refNode: *FLAT_TIME
+  - update: STR_LMG
+    refNode: *FLAT_TIME
+  - update: STR_SMARTGUN
+    refNode: *FLAT_TIME
+  - update: STR_SPARTAN_MG
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_MG
+    refNode: *FLAT_TIME
+  - update: STR_ASUKA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_BOZAR
+    refNode: *FLAT_TIME
+  - update: STR_SMART_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_MACHINEGUN_LIGHT
+    refNode: *FLAT_TIME
+  - update: STR_MACHINEGUN
+    refNode: *FLAT_TIME
+  - update: STR_MACHINEGUN_WHEELED
+    refNode: *FLAT_TIME
+  - update: STR_BIG_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_HMG_ASSAULT
+    refNode: *FLAT_TIME
+  - update: STR_HMG
+    refNode: *FLAT_TIME
+  - update: STR_HYDRA_LASER
+    refNode: *FLAT_TIME
+  - update: STR_AUTO_LASER
+    refNode: *FLAT_TIME
+  - update: STR_MEGA_LASER
+    refNode: *FLAT_TIME
+  - update: STR_XG_HEAVY
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_GAUSS
+    refNode: *FLAT_TIME
+  - update: STR_FLECHETTE_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_CD_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_WARP_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_UAC_PLASMAGUN
+    refNode: *FLAT_TIME
+  - update: STR_MINING_LASER
+    refNode: *FLAT_TIME
+  - update: STR_RAIL_DRIVER
+    refNode: *FLAT_TIME
+  - update: STR_IRRADIATOR
+    refNode: *FLAT_TIME
+  - update: STR_COOKER
+    refNode: *FLAT_TIME
+  - update: STR_LIGHTNING_THROWER
+    refNode: *FLAT_TIME
+  - update: STR_CHAINGUN
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_MINIGUN
+    refNode: *FLAT_TIME
+  - update: STR_ROTOGUN
+    refNode: *FLAT_TIME
+  - update: STR_MINIGUN
+    refNode: *FLAT_TIME
+  - update: STR_MINIGUN_ADV
+    refNode: *FLAT_TIME
+  - update: STR_MINIGUN_2
+    refNode: *FLAT_TIME
+  - update: STR_UAC_HEAVY_NAILGUN
+    refNode: *FLAT_TIME
+  - update: STR_GATLING_LASER
+    refNode: *FLAT_TIME
+  - update: STR_NUB_LASER_GATLING
+    refNode: *FLAT_TIME
+  - update: STR_LACC
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_CANNON
+    refNode: *FLAT_TIME
+  - update: AUX_EXTERMINATOR_AUTO_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_AUTO_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_MP_AUTO_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_MEGA_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_AUTOCANNON
+    refNode: *FLAT_TIME
+  - update: STR_DURANDAL_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_ES_HEAVY
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_LASER_PIR
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_LASER
+    refNode: *FLAT_TIME
+  - update: STR_MP_LASCANNON_N
+    refNode: *FLAT_TIME
+  - update: STR_SONIC_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_CANISTER_GUN
+    refNode: *FLAT_TIME
+  - update: STR_TOXIGUN
+    refNode: *FLAT_TIME
+  - update: STR_BALLISTA
+    refNode: *FLAT_TIME
+  - update: STR_PIR_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_GRAV_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_KRAKEN_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_LAUNCHER_ADV
+    refNode: *FLAT_TIME
+  - update: STR_HGL
+    refNode: *FLAT_TIME
+  - update: STR_AGL
+    refNode: *FLAT_TIME
+  - update: STR_TTGL
+    refNode: *FLAT_TIME
+  - update: STR_BLIZZARD_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_ABC_GUN
+    refNode: *FLAT_TIME
+  - update: STR_MORTAR
+    refNode: *FLAT_TIME
+  - update: STR_MORTAR_ADV
+    refNode: *FLAT_TIME
+  - update: STR_HAND_MORTAR
+    refNode: *FLAT_TIME
+  - update: STR_DAVY_CROCKET
+    refNode: *FLAT_TIME
+  - update: STR_3RL
+    refNode: *FLAT_TIME
+  - update: STR_ATG_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_RPG
+    refNode: *FLAT_TIME
+  - update: STR_RPG_SMART
+    refNode: *FLAT_TIME
+  - update: STR_RPG_ADV
+    refNode: *FLAT_TIME
+  - update: STR_RECOILLESS_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_ROCKET_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_ROCKET_LAUNCHER_ADV
+    refNode: *FLAT_TIME
+  - update: STR_QUAD_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_UAC_ROCKET_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_MRSHAN_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_SSRL
+    refNode: *FLAT_TIME
+  - update: STR_SSRL_2
+    refNode: *FLAT_TIME
+  - update: STR_SPORE_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_INCINERATOR
+    refNode: *FLAT_TIME
+  - update: STR_MINI_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_PIR_SMALL_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_SHOULDER_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_PLASMA_SCORCHER
+    refNode: *FLAT_TIME
+  - update: STR_ES_ION_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_BFG
+    refNode: *FLAT_TIME
+  - update: STR_ATGM
+    refNode: *FLAT_TIME
+  - update: STR_PIR_BLASTER_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_BLASTER_MULTI_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_LIGHTER
+    refNode: *FLAT_TIME
+  - update: STR_HAND_FLAMER
+    refNode: *FLAT_TIME
+  - update: STR_FLAMETHROWER
+    refNode: *FLAT_TIME
+  - update: STR_FLAMETHROWER_LR
+    refNode: *FLAT_TIME
+  - update: STR_HEAVY_FLAMER
+    refNode: *FLAT_TIME
+  - update: STR_MEGA_FLAMER
+    refNode: *FLAT_TIME
+  - update: STR_FLAME_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_FIREBALL_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: STR_FUSION_TORCH
+    refNode: *FLAT_TIME
+  - update: STR_GRIMOIRE
+    refNode: *FLAT_TIME
+  - update: STR_ARCANE_RAY
+    refNode: *FLAT_TIME
+  - update: STR_CUPID_GUN
+    refNode: *FLAT_TIME
+  - update: STR_EXECUTIONER_XBOW
+    refNode: *FLAT_TIME
+  - update: STR_CREMATOR_GUN
+    refNode: *FLAT_TIME
+  - update: STR_PISTOL_OF_THE_DEAD
+    refNode: *FLAT_TIME
+  - update: STR_SHOTGUN_OF_THE_DEAD
+    refNode: *FLAT_TIME
+  - update: STR_RIFLE_OF_THE_DEAD
+    refNode: *FLAT_TIME
+  - update: STR_DREAMSHOOTER
+    refNode: *FLAT_TIME
+  - update: STR_DREAMCRUSHER
+    refNode: *FLAT_TIME
+  - update: STR_DREAMCHASER
+    refNode: *FLAT_TIME
+  - update: STR_DREAMINGUN
+    refNode: *FLAT_TIME
+  - update: STR_DREAMZOOKA
+    refNode: *FLAT_TIME

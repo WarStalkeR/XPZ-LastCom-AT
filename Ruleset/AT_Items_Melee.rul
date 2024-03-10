@@ -1,0 +1,250 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_KNUCKLES
+    refNode: *FLAT_TIME
+  - update: STR_KNUCKLES_SPIKED
+    refNode: *FLAT_TIME
+  - update: STR_FISTY
+    refNode: *FLAT_TIME
+  - update: STR_HANDLE
+    refNode: *FLAT_TIME
+  - update: STR_STUN_BATON
+    refNode: *FLAT_TIME
+  - update: STR_SHIV
+    refNode: *FLAT_TIME
+  - update: STR_RAZOR
+    refNode: *FLAT_TIME
+  - update: STR_MACHETE
+    refNode: *FLAT_TIME
+  - update: STR_KITCHEN_KNIFE
+    refNode: *FLAT_TIME
+  - update: STR_KNOIF_BANDIT
+    refNode: *FLAT_TIME
+  - update: STR_TECH_KNIFE
+    refNode: *FLAT_TIME
+  - update: STR_KNOIF
+    refNode: *FLAT_TIME
+  - update: STR_CHITIN_KNIFE
+    refNode: *FLAT_TIME
+  - update: STR_KNOIF_BARB
+    refNode: *FLAT_TIME
+  - update: STR_LONG_KNIFE
+    refNode: *FLAT_TIME
+  - update: STR_KNOIF_POISON
+    refNode: *FLAT_TIME
+  - update: STR_QUICKSILVER_KNIFE
+    refNode: *FLAT_TIME
+  - update: STR_VIBRO_BLADE
+    refNode: *FLAT_TIME
+  - update: STR_PLASMA_DAGGER
+    refNode: *FLAT_TIME
+  - update: STR_GHOST_DAGGER
+    refNode: *FLAT_TIME
+  - update: STR_CHAOS_DAGGER
+    refNode: *FLAT_TIME
+  - update: STR_PRED_CLAWS
+    refNode: *FLAT_TIME
+  - update: STR_SHARK_GARLAND
+    refNode: *FLAT_TIME
+  - update: STR_PIPE
+    refNode: *FLAT_TIME
+  - update: STR_WRENCH
+    refNode: *FLAT_TIME
+  - update: STR_AZTEC_CLUB
+    refNode: *FLAT_TIME
+  - update: STR_SICKLE
+    refNode: *FLAT_TIME
+  - update: STR_RUSTY_BLADE
+    refNode: *FLAT_TIME
+  - update: STR_WRAITH_BLADE
+    refNode: *FLAT_TIME
+  - update: STR_SHORT_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_QUICKSILVER_CUTLASS
+    refNode: *FLAT_TIME
+  - update: STR_WAKIZASHI
+    refNode: *FLAT_TIME
+  - update: STR_SLICER
+    refNode: *FLAT_TIME
+  - update: STR_RAPIER
+    refNode: *FLAT_TIME
+  - update: STR_GLADIUS
+    refNode: *FLAT_TIME
+  - update: STR_SWORD_CHITIN
+    refNode: *FLAT_TIME
+  - update: STR_CUTLASS
+    refNode: *FLAT_TIME
+  - update: STR_GLITTERSWORD
+    refNode: *FLAT_TIME
+  - update: STR_SWORD_MDV
+    refNode: *FLAT_TIME
+  - update: STR_SWORD_PS
+    refNode: *FLAT_TIME
+  - update: STR_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_NEKO_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_FOWLER_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_HERO_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_FLAMING_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_VAMPIRIC_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_FORCE_BLADE
+    refNode: *FLAT_TIME
+  - update: STR_PHOTON_BLADE
+    refNode: *FLAT_TIME
+  - update: STR_PLASMA_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_BILLHOOK
+    refNode: *FLAT_TIME
+  - update: STR_TECH_CLEAVER
+    refNode: *FLAT_TIME
+  - update: STR_STONE_AX
+    refNode: *FLAT_TIME
+  - update: STR_AQUA_HATCHET
+    refNode: *FLAT_TIME
+  - update: STR_AX
+    refNode: *FLAT_TIME
+  - update: STR_BATTLE_AX
+    refNode: *FLAT_TIME
+  - update: STR_VIBRO_AX
+    refNode: *FLAT_TIME
+  - update: STR_CLAW
+    refNode: *FLAT_TIME
+  - update: STR_BLOOD_AX
+    refNode: *FLAT_TIME
+  - update: STR_PEG_LEG
+    refNode: *FLAT_TIME
+  - update: STR_TONFA
+    refNode: *FLAT_TIME
+  - update: STR_SLAVERS_CANE
+    refNode: *FLAT_TIME
+  - update: STR_BATTO
+    refNode: *FLAT_TIME
+  - update: STR_BATTO_MAGIC
+    refNode: *FLAT_TIME
+  - update: STR_DISCIPLINER
+    refNode: *FLAT_TIME
+  - update: STR_BONE_CLUB
+    refNode: *FLAT_TIME
+  - update: STR_BATON
+    refNode: *FLAT_TIME
+  - update: STR_SPIKED_MACE
+    refNode: *FLAT_TIME
+  - update: STR_IRON_ROD
+    refNode: *FLAT_TIME
+  - update: STR_NARLOCK_SCEPTER
+    refNode: *FLAT_TIME
+  - update: STR_POWER_MACE
+    refNode: *FLAT_TIME
+  - update: STR_THUNDERSTRIKER
+    refNode: *FLAT_TIME
+  - update: STR_POISON_LANCE
+    refNode: *FLAT_TIME
+  - update: STR_BAMBOO
+    refNode: *FLAT_TIME
+  - update: STR_AQUA_TRIDENT
+    refNode: *FLAT_TIME
+  - update: STR_IV_STAND
+    refNode: *FLAT_TIME
+  - update: STR_SHEPHERDS_STAFF
+    refNode: *FLAT_TIME
+  - update: STR_QUARTERSTAFF
+    refNode: *FLAT_TIME
+  - update: STR_CATTLE_PROD
+    refNode: *FLAT_TIME
+  - update: STR_IMPALER
+    refNode: *FLAT_TIME
+  - update: STR_CAT_PAWS
+    refNode: *FLAT_TIME
+  - update: STR_PITCHFORK
+    refNode: *FLAT_TIME
+  - update: STR_SHOVEL
+    refNode: *FLAT_TIME
+  - update: STR_STOP_SIGN
+    refNode: *FLAT_TIME
+  - update: STR_BIG_BONE
+    refNode: *FLAT_TIME
+  - update: STR_GREAT_CLUB
+    refNode: *FLAT_TIME
+  - update: STR_GOTHIC_HAMMER
+    refNode: *FLAT_TIME
+  - update: STR_BOATHOOK
+    refNode: *FLAT_TIME
+  - update: STR_ENERGY_SCYTHE
+    refNode: *FLAT_TIME
+  - update: STR_BARBARIAN_SWORD
+    refNode: *FLAT_TIME
+  - update: STR_KATANA
+    refNode: *FLAT_TIME
+  - update: STR_BARBARIAN_AX
+    refNode: *FLAT_TIME
+  - update: STR_BARDICHE
+    refNode: *FLAT_TIME
+  - update: STR_MEGA_AX
+    refNode: *FLAT_TIME
+  - update: STR_BUTCHER_CLEAVER
+    refNode: *FLAT_TIME
+  - update: STR_HAMMER
+    refNode: *FLAT_TIME
+  - update: STR_STEAM_HAMMER
+    refNode: *FLAT_TIME
+  - update: STR_SLUDGEHAMMER
+    refNode: *FLAT_TIME
+  - update: STR_RIPPER
+    refNode: *FLAT_TIME
+  - update: STR_CHAINSAW
+    refNode: *FLAT_TIME
+  - update: STR_CHAINSAW_LOLI
+    refNode: *FLAT_TIME
+  - update: STR_AUTO_AXE
+    refNode: *FLAT_TIME
+  - update: STR_CHAINSAW_HEAVY
+    refNode: *FLAT_TIME
+  - update: AUX_DRILL_RANGED
+    refNode: *FLAT_TIME
+  - update: STR_NOOSE
+    refNode: *FLAT_TIME
+  - update: STR_SPEAR
+    refNode: *FLAT_TIME
+  - update: STR_PIKE
+    refNode: *FLAT_TIME
+  - update: STR_VIBRO_SPEAR
+    refNode: *FLAT_TIME
+  - update: STR_SINGING_SPEAR
+    refNode: *FLAT_TIME
+  - update: STR_PHOTON_SPEAR
+    refNode: *FLAT_TIME
+  - update: STR_KUSARIGAMA
+    refNode: *FLAT_TIME
+  - update: STR_WHIP_LEATHER
+    refNode: *FLAT_TIME
+  - update: STR_WHIP
+    refNode: *FLAT_TIME
+  - update: STR_ELECTRIC_LASSO
+    refNode: *FLAT_TIME
+  - update: STR_POISONOUS_TENTACLE
+    refNode: *FLAT_TIME
+  - update: STR_ANCHOR
+    refNode: *FLAT_TIME
+  - update: STR_WRECKIN_BALL
+    refNode: *FLAT_TIME
+  - update: STR_CROWBAR
+    refNode: *FLAT_TIME
+  - update: STR_PICKAXE
+    refNode: *FLAT_TIME
+  - update: STR_MINOTAUR_AX
+    refNode: *FLAT_TIME

@@ -1,0 +1,60 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: AUX_FISTO
+    refNode: *FLAT_TIME
+  - update: AUX_GHOST_FISTO
+    refNode: *FLAT_TIME
+  - update: AUX_HAMMER_FISTO
+    refNode: *FLAT_TIME
+  - update: AUX_WARP_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_SAINT_FISTO
+    refNode: *FLAT_TIME
+  - update: AUX_FLAMING_FISTO
+    refNode: *FLAT_TIME
+  - update: STR_KUNG_FU_ALT
+    refNode: *FLAT_TIME
+  - update: AUX_SHOCKAFIST
+    refNode: *FLAT_TIME
+  - update: AUX_ROBOT_FIST
+    refNode: *FLAT_TIME
+  - update: AUX_HIDDEN_BLADE
+    refNode: *FLAT_TIME
+  - update: AUX_ELECTRIC_GLOVE
+    refNode: *FLAT_TIME
+  - update: STR_UNARMED_BASIC
+    refNode: *FLAT_TIME
+  - update: STR_UNARMED_PLUS
+    refNode: *FLAT_TIME
+  - update: STR_UNARMED_WRESTLING
+    refNode: *FLAT_TIME
+  - update: STR_UNARMED_GAUNTLET
+    refNode: *FLAT_TIME
+  - update: STR_UNARMED_GAUNTLET_PLUS
+    refNode: *FLAT_TIME
+  - update: STR_GAUNTLET_CLAW
+    refNode: *FLAT_TIME
+  - update: STR_PUNK_CHAIN
+    refNode: *FLAT_TIME
+  - update: STR_VOID_PALM
+    refNode: *FLAT_TIME
+  - update: STR_KUNG_FU
+    refNode: *FLAT_TIME
+  - update: STR_NEKO_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_ELECTRIC_TAIL
+    refNode: *FLAT_TIME
+  - update: AUX_SYNTH_TAIL
+    refNode: *FLAT_TIME
+  - update: AUX_POWER_TAIL
+    refNode: *FLAT_TIME

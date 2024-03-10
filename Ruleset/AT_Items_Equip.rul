@@ -1,0 +1,70 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_SHAWL
+    refNode: *FLAT_TIME
+  - update: STR_FUR_HAT
+    refNode: *FLAT_TIME
+  - update: STR_A_SPACE_TOWEL
+    refNode: *FLAT_TIME
+  - update: STR_FAN
+    refNode: *FLAT_TIME
+  - update: STR_FIRE_RESISTANT_SHIRT
+    refNode: *FLAT_TIME
+  - update: STR_THERMAL_SHIRT
+    refNode: *FLAT_TIME
+  - update: STR_THE_ANTIRAD_JACKET
+    refNode: *FLAT_TIME
+  - update: STR_DUST_MASK
+    refNode: *FLAT_TIME
+  - update: STR_XMED_MASK
+    refNode: *FLAT_TIME
+  - update: STR_GAS_MASK
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_MASK
+    refNode: *FLAT_TIME
+  - update: STR_POLICE_SHIELD
+    refNode: *FLAT_TIME
+  - update: STR_AY_GOGGLES
+    refNode: *FLAT_TIME
+  - update: STR_BOOTS_OF_GROUNDING
+    refNode: *FLAT_TIME
+  - update: STR_CHEM_COAT
+    refNode: *FLAT_TIME
+  - update: STR_BURA
+    refNode: *FLAT_TIME
+  - update: STR_ARMORED_CORSET
+    refNode: *FLAT_TIME
+  - update: STR_BARBED_STOCKINGS
+    refNode: *FLAT_TIME
+  - update: STR_LINGERIE
+    refNode: *FLAT_TIME
+  - update: STR_RIBBON
+    refNode: *FLAT_TIME
+  - update: STR_PIRATE_HAT
+    refNode: *FLAT_TIME
+  - update: STR_LUNAR_WARD
+    refNode: *FLAT_TIME
+  - update: STR_BEJEWELED_CAP
+    refNode: *FLAT_TIME
+  - update: STR_ZORTRIUM_JACKET
+    refNode: *FLAT_TIME
+  - update: STR_DOOMED_VEST
+    refNode: *FLAT_TIME
+  - update: STR_POLYMAKH_SHAPKA
+    refNode: *FLAT_TIME
+  - update: STR_AVATAR_MEDALLION
+    refNode: *FLAT_TIME
+  - update: STR_HAREM_COLLAR
+    refNode: *FLAT_TIME
+  - update: STR_BLACK_MASK
+    refNode: *FLAT_TIME

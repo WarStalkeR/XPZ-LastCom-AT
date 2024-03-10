@@ -1,0 +1,148 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_TORCH
+    refNode: *FLAT_TIME
+  - update: STR_MAG_LITE
+    refNode: *FLAT_TIME
+  - update: STR_ELECTRO_FLARE
+    refNode: *FLAT_TIME
+  - update: STR_LIGHT_CRYSTAL
+    refNode: *FLAT_TIME
+  - update: STR_RANGEFINDER
+    refNode: *FLAT_TIME
+  - update: STR_MOTION_SCANNER
+    refNode: *FLAT_TIME
+  - update: STR_OCCULAR
+    refNode: *FLAT_TIME
+  - update: STR_FIRE_EXT
+    refNode: *FLAT_TIME
+  - update: STR_FIRE_EXT_ADV
+    refNode: *FLAT_TIME
+  - update: STR_LEVITATOR
+    refNode: *FLAT_TIME
+  - update: STR_MANACLES
+    refNode: *FLAT_TIME
+  - update: STR_TK_DEVICE
+    refNode: *FLAT_TIME
+  - update: STR_PIRATE_FLAG
+    refNode: *FLAT_TIME
+  - update: STR_PIRATE_PIPES
+    refNode: *FLAT_TIME
+  - update: STR_PIRATE_GUITAR
+    refNode: *FLAT_TIME
+  - update: STR_MIND_PROBE
+    refNode: *FLAT_TIME
+  - update: STR_WHIP_BLOOD_VINE
+    refNode: *FLAT_TIME
+  - update: STR_OFFICERS_BATON
+    refNode: *FLAT_TIME
+  - update: STR_PERSUADOTRON
+    refNode: *FLAT_TIME
+  - update: STR_PSI_AMP
+    refNode: *FLAT_TIME
+  - update: STR_PSI_AMP_LARGE
+    refNode: *FLAT_TIME
+  - update: STR_BANDAGE
+    refNode: *FLAT_TIME
+  - update: STR_FIRST_AID_KIT_SMALL
+    refNode: *FLAT_TIME
+  - update: STR_FIRST_AID_KIT
+    refNode: *FLAT_TIME
+  - update: STR_HEALING_GEL
+    refNode: *FLAT_TIME
+  - update: STR_SMALL_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: STR_SPACE_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: STR_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: STR_SUPER_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: STR_SIVALINGA
+    refNode: *FLAT_TIME
+  - update: STR_MEDIPACK_SAVIOUR
+    refNode: *FLAT_TIME
+  - update: STR_CANTEEN
+    refNode: *FLAT_TIME
+  - update: STR_CANTEEN_WEED
+    refNode: *FLAT_TIME
+  - update: STR_KALTES_KLARES
+    refNode: *FLAT_TIME
+  - update: STR_FUNGO
+    refNode: *FLAT_TIME
+  - update: STR_BEER
+    refNode: *FLAT_TIME
+  - update: STR_MOONSHINE
+    refNode: *FLAT_TIME
+  - update: STR_VODKA
+    refNode: *FLAT_TIME
+  - update: STR_SAKE
+    refNode: *FLAT_TIME
+  - update: STR_FROG_POISON
+    refNode: *FLAT_TIME
+  - update: STR_MUSHROOM_BEER
+    refNode: *FLAT_TIME
+  - update: STR_ZOMBIE_COCKTAIL
+    refNode: *FLAT_TIME
+  - update: STR_MEDI_KIT
+    refNode: *FLAT_TIME
+  - update: STR_GROG_BARREL
+    refNode: *FLAT_TIME
+  - update: STR_PAINKILLERS
+    refNode: *FLAT_TIME
+  - update: STR_STIMM
+    refNode: *FLAT_TIME
+  - update: STR_CIGS
+    refNode: *FLAT_TIME
+  - update: STR_CIGAR
+    refNode: *FLAT_TIME
+  - update: STR_CRACK
+    refNode: *FLAT_TIME
+  - update: STR_COMBAT_DRUGS
+    refNode: *FLAT_TIME
+  - update: STR_BLACK_PILL
+    refNode: *FLAT_TIME
+  - update: STR_OXYGEN_TANK
+    refNode: *FLAT_TIME
+  - update: SPC_OXYGEN_TANK
+    refNode: *FLAT_TIME
+  - update: STR_LIQUID_COOL
+    refNode: *FLAT_TIME
+  - update: STR_DOGE_COLLAR
+    refNode: *FLAT_TIME
+  - update: STR_HELLERIUM_CHARM
+    refNode: *FLAT_TIME
+  - update: STR_GLITTERSKULL
+    refNode: *FLAT_TIME
+  - update: STR_DRUG_DISPENSOR
+    refNode: *FLAT_TIME
+  - update: STR_GRAV_DAMPER
+    refNode: *FLAT_TIME
+  - update: STR_ENERGY_SHIELD_SMALL
+    refNode: *FLAT_TIME
+  - update: STR_REFRACTOR_SHIELD_SMALL
+    refNode: *FLAT_TIME
+  - update: STR_ARCANE_SHIELD_SMALL
+    refNode: *FLAT_TIME
+  - update: STR_ENERGY_MATRIX_SMALL
+    refNode: *FLAT_TIME
+  - update: STR_NINJA_DEATHPACK
+    refNode: *FLAT_TIME
+  - update: STR_SANDBAGS
+    refNode: *FLAT_TIME
+  - update: STR_PSI_RESONATOR
+    refNode: *FLAT_TIME
+  - update: STR_PADD
+    refNode: *FLAT_TIME
+  - update: STR_REMOTE_CONTROL
+    refNode: *FLAT_TIME

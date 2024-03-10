@@ -1,0 +1,112 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_CULTURAL_WEALTH
+    refNode: *FLAT_TIME
+  - update: STR_CULTURAL_RELIC
+    refNode: *FLAT_TIME
+  - update: STR_GLAMOUR
+    refNode: *FLAT_TIME
+  - update: STR_INDUSTRIAL_STOCKS
+    refNode: *FLAT_TIME
+  - update: STR_TAVERN_OWNERSHIP_DEED
+    refNode: *FLAT_TIME
+  - update: STR_LAND_DEED_MINOR
+    refNode: *FLAT_TIME
+  - update: STR_LAND_DEED
+    refNode: *FLAT_TIME
+  - update: STR_MBT_M
+    refNode: *FLAT_TIME
+  - update: STR_ICBM
+    refNode: *FLAT_TIME
+  - update: STR_CONTRABAND
+    refNode: *FLAT_TIME
+  - update: STR_HITAYATE
+    refNode: *FLAT_TIME
+  - update: STR_MERC_BIZCARD
+    refNode: *FLAT_TIME
+  - update: STR_WINE
+    refNode: *FLAT_TIME
+  - update: STR_GENIUS_LOCI_ACTIVATED
+    refNode: *FLAT_TIME
+  - update: STR_CHTONIC_ARTIFACT_113
+    refNode: *FLAT_TIME
+  - update: STR_POTATO_SACK
+    refNode: *FLAT_TIME
+  - update: STR_LEEK_SACK
+    refNode: *FLAT_TIME
+  - update: STR_UBER_WHEAT_SACK
+    refNode: *FLAT_TIME
+  - update: STR_CABBAGE_SACK
+    refNode: *FLAT_TIME
+  - update: STR_FUNGUS_OUTBREAK
+    refNode: *FLAT_TIME
+  - update: STR_DEMONIC_INCURSION
+    refNode: *FLAT_TIME
+  - update: STR_SLIME_INFESTATION
+    refNode: *FLAT_TIME
+  - update: STR_JIM_ANGRY
+    refNode: *FLAT_TIME
+  - update: STR_JIM_HAPPY
+    refNode: *FLAT_TIME
+  - update: STR_SDD
+    refNode: *FLAT_TIME
+  - update: STR_POLTERGEIST
+    refNode: *FLAT_TIME
+  - update: STR_FRIENDLY_SLIME
+    refNode: *FLAT_TIME
+  - update: STR_POLTERGEIST_CAPTURED
+    refNode: *FLAT_TIME
+  - update: STR_TRANSDIMENSIONAL_LOCKER
+    refNode: *FLAT_TIME
+  - update: STR_TRANSDIMENSIONAL_LOCKER_ACTIVE
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_APPLE
+    refNode: *FLAT_TIME
+  - update: STR_GREAT_EYE
+    refNode: *FLAT_TIME
+  - update: STR_DESTROPORTAL
+    refNode: *FLAT_TIME
+  - update: STR_PADLOCK_OF_HORROR
+    refNode: *FLAT_TIME
+  - update: STR_VENTURA_ANOMALY
+    refNode: *FLAT_TIME
+  - update: STR_FUEGO_ANOMALY
+    refNode: *FLAT_TIME
+  - update: STR_FORTUNA_ANOMALY
+    refNode: *FLAT_TIME
+  - update: STR_METALLO_ANOMALY
+    refNode: *FLAT_TIME
+  - update: STR_SHADOW_ORB_BLUE
+    refNode: *FLAT_TIME
+  - update: STR_SHADOW_ORB_GREEN
+    refNode: *FLAT_TIME
+  - update: STR_SHADOW_ORB_MIND
+    refNode: *FLAT_TIME
+  - update: STR_SHADOW_ORB_RED
+    refNode: *FLAT_TIME
+  - update: STR_SHADOW_ORB_CRYSTAL
+    refNode: *FLAT_TIME
+  - update: STR_OFFERING_TO_PURPLE_BLOOM
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_BLESSINGS
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_COMPLAINT
+    refNode: *FLAT_TIME
+  - update: STR_GOVT_FINE
+    refNode: *FLAT_TIME
+  - update: STR_HIDEOUT_CLEANING_BILL
+    refNode: *FLAT_TIME
+  - update: STR_CRAFT_DAMAGES_BILL
+    refNode: *FLAT_TIME
+  - update: STR_SPACE_POD_REPLACEMENT_BILL
+    refNode: *FLAT_TIME

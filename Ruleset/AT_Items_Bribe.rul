@@ -1,0 +1,72 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: TROLLIUM
+    refNode: *FLAT_TIME
+  - update: STR_AMPHORE
+    refNode: *FLAT_TIME
+  - update: STR_RING
+    refNode: *FLAT_TIME
+  - update: STR_MEDALLION
+    refNode: *FLAT_TIME
+  - update: STR_COINS
+    refNode: *FLAT_TIME
+  - update: STR_DOLLAR_BRIEFCASE
+    refNode: *FLAT_TIME
+  - update: STR_COIN_PILE
+    refNode: *FLAT_TIME
+  - update: STR_COIN_CHEST
+    refNode: *FLAT_TIME
+  - update: STR_LIZARDMAN_STATUE
+    refNode: *FLAT_TIME
+  - update: STR_SILVER_BAR
+    refNode: *FLAT_TIME
+  - update: STR_GOLD_BAR
+    refNode: *FLAT_TIME
+  - update: STR_ALENIUM
+    refNode: *FLAT_TIME
+  - update: STR_ALENIUM_FAKE
+    refNode: *FLAT_TIME
+  - update: STR_YELLOW_GEM
+    refNode: *FLAT_TIME
+  - update: STR_BLUE_GEM
+    refNode: *FLAT_TIME
+  - update: STR_GREEN_GEM
+    refNode: *FLAT_TIME
+  - update: STR_RED_GEM
+    refNode: *FLAT_TIME
+  - update: STR_DIAMOND
+    refNode: *FLAT_TIME
+  - update: STR_ANKH
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_CUP
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_CROSS
+    refNode: *FLAT_TIME
+  - update: STR_CROWN
+    refNode: *FLAT_TIME
+  - update: STR_MONEY_PURSE
+    refNode: *FLAT_TIME
+  - update: STR_CASH_BAG
+    refNode: *FLAT_TIME
+  - update: STR_SAFE
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_HELM
+    refNode: *FLAT_TIME
+  - update: STR_TREASURE_BAG
+    refNode: *FLAT_TIME
+  - update: STR_TREASURE_CHEST
+    refNode: *FLAT_TIME
+  - update: STR_JADE_URN
+    refNode: *FLAT_TIME
+  - update: STR_GOLDEN_STATUE
+    refNode: *FLAT_TIME

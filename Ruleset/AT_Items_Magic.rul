@@ -1,0 +1,86 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_WIZ_SPELL_MENTAL_RAY
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_HOLOGAL
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_DAZZLER
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_HADES
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_EREBUS
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_ATHENA
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_THANATOS
+    refNode: *FLAT_TIME
+  - update: STR_WIZ_SPELL_ARES
+    refNode: *FLAT_TIME
+  - update: STR_ROD_OF_BLISS
+    refNode: *FLAT_TIME
+  - update: STR_WAND_CHOKE
+    refNode: *FLAT_TIME
+  - update: STR_WAND_FIRE
+    refNode: *FLAT_TIME
+  - update: STR_WAND_PAIN
+    refNode: *FLAT_TIME
+  - update: STR_WAND_HARTO
+    refNode: *FLAT_TIME
+  - update: STR_SKULL_ROD
+    refNode: *FLAT_TIME
+  - update: STR_FLAME_GLOVE
+    refNode: *FLAT_TIME
+  - update: STR_MAGIC_HAMMER
+    refNode: *FLAT_TIME
+  - update: STR_TOME_LIGHTNING
+    refNode: *FLAT_TIME
+  - update: STR_COBRA_STAFF
+    refNode: *FLAT_TIME
+  - update: STR_PHANTOM_WHIP
+    refNode: *FLAT_TIME
+  - update: STR_STAFF_OF_EXPLOSION
+    refNode: *FLAT_TIME
+  - update: STR_HEARTGRIP_STAFF
+    refNode: *FLAT_TIME
+  - update: STR_HELLGUN
+    refNode: *FLAT_TIME
+  - update: STR_FLAME_WHIP
+    refNode: *FLAT_TIME
+  - update: STR_BANE_BLADE
+    refNode: *FLAT_TIME
+  - update: STR_DEATHBLADE
+    refNode: *FLAT_TIME
+  - update: STR_DEMONIC_ESSENCE
+    refNode: *FLAT_TIME
+  - update: STR_ACCURSED_SWILL
+    refNode: *FLAT_TIME
+  - update: STR_BONE_SHIELD
+    refNode: *FLAT_TIME
+  - update: STR_BIOFRESH_GUN
+    refNode: *FLAT_TIME
+  - update: STR_PLANT_X
+    refNode: *FLAT_TIME
+  - update: STR_SCROLL_PINK
+    refNode: *FLAT_TIME
+  - update: STR_RAGE_BOMB
+    refNode: *FLAT_TIME
+  - update: STR_CRYSTAL_SKULL
+    refNode: *FLAT_TIME
+  - update: STR_MASTERS_CANE
+    refNode: *FLAT_TIME
+  - update: STR_SAKURA_STAFF
+    refNode: *FLAT_TIME
+  - update: STR_SCEPTER_OF_FEAR
+    refNode: *FLAT_TIME
+  - update: STR_DANCE_MASTER
+    refNode: *FLAT_TIME

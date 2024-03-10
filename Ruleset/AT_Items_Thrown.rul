@@ -1,0 +1,170 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_TESLA_COIL
+    refNode: *FLAT_TIME
+  - update: STR_ROCK_T
+    refNode: *FLAT_TIME
+  - update: STR_FUSO_KNIVES
+    refNode: *FLAT_TIME
+  - update: STR_THROWING_STARS
+    refNode: *FLAT_TIME
+  - update: STR_SUNBLADES
+    refNode: *FLAT_TIME
+  - update: STR_FIRESTARS
+    refNode: *FLAT_TIME
+  - update: STR_LASER_STARS
+    refNode: *FLAT_TIME
+  - update: STR_THROWING_CARDS
+    refNode: *FLAT_TIME
+  - update: STR_JAVELINS_PRIMITIVE
+    refNode: *FLAT_TIME
+  - update: STR_JAVELINS
+    refNode: *FLAT_TIME
+  - update: STR_JAVELINS_AQUA
+    refNode: *FLAT_TIME
+  - update: STR_THROWING_AXES
+    refNode: *FLAT_TIME
+  - update: STR_SHREDDER
+    refNode: *FLAT_TIME
+  - update: STR_ANUS
+    refNode: *FLAT_TIME
+  - update: STR_DAZZLING_DISC
+    refNode: *FLAT_TIME
+  - update: STR_PRED_DISC
+    refNode: *FLAT_TIME
+  - update: STR_THROWING_HAMMER
+    refNode: *FLAT_TIME
+  - update: STR_ELECTRIC_NET
+    refNode: *FLAT_TIME
+  - update: STR_CS_GAS
+    refNode: *FLAT_TIME
+  - update: STR_MOLOTOV
+    refNode: *FLAT_TIME
+  - update: STR_NAPALM_NADES
+    refNode: *FLAT_TIME
+  - update: STR_ANARCHY_BOMB
+    refNode: *FLAT_TIME
+  - update: STR_STICK_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_SPIKEBALL
+    refNode: *FLAT_TIME
+  - update: STR_FIRECRACKERS
+    refNode: *FLAT_TIME
+  - update: STR_BOOM_FRUIT
+    refNode: *FLAT_TIME
+  - update: STR_FLASK_ACID
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_FRAG
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_FRAG_PS
+    refNode: *FLAT_TIME
+  - update: STR_INCENDIARY_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_WP_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_GAS_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_CRY_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_ACID_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_BUG
+    refNode: *FLAT_TIME
+  - update: STR_PIR_ALIEN_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_BLOWFISHE
+    refNode: *FLAT_TIME
+  - update: STR_SONIC_PULSER
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_FUSION
+    refNode: *FLAT_TIME
+  - update: STR_GRENADE_WARPCORE
+    refNode: *FLAT_TIME
+  - update: STR_STUN_GRENADE_PIR
+    refNode: *FLAT_TIME
+  - update: STR_KNOCKOUT_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_HALLUCINOGEN_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_RIOT_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_STICK_BOMB
+    refNode: *FLAT_TIME
+  - update: STR_DYNAMITE
+    refNode: *FLAT_TIME
+  - update: STR_COV
+    refNode: *FLAT_TIME
+  - update: STR_HIGH_EXPLOSIVE
+    refNode: *FLAT_TIME
+  - update: STR_FIREBOMB
+    refNode: *FLAT_TIME
+  - update: STR_GAS_BOMB
+    refNode: *FLAT_TIME
+  - update: STR_KNOCKOUT_BOMB
+    refNode: *FLAT_TIME
+  - update: STR_BOOM_KEG
+    refNode: *FLAT_TIME
+  - update: STR_SATCHEL_CHARGE
+    refNode: *FLAT_TIME
+  - update: STR_BARREL_BOMB
+    refNode: *FLAT_TIME
+  - update: STR_BARREL_NUKE
+    refNode: *FLAT_TIME
+  - update: STR_SOL_DEMO_CHARGE
+    refNode: *FLAT_TIME
+  - update: STR_NUKE_CHARGE
+    refNode: *FLAT_TIME
+  - update: STR_BABY_NUKE_TIMED
+    refNode: *FLAT_TIME
+  - update: STR_BREACHING_CHARGE
+    refNode: *FLAT_TIME
+  - update: STR_EMP_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_PROXIMITY_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_MINE
+    refNode: *FLAT_TIME
+  - update: STR_MINE_FIRE
+    refNode: *FLAT_TIME
+  - update: STR_MINE_STUN
+    refNode: *FLAT_TIME
+  - update: STR_MINE_ACID
+    refNode: *FLAT_TIME
+  - update: STR_MINE_WP
+    refNode: *FLAT_TIME
+  - update: STR_MINE_N
+    refNode: *FLAT_TIME
+  - update: STR_MINE_EMP
+    refNode: *FLAT_TIME
+  - update: STR_MINE_GAS
+    refNode: *FLAT_TIME
+  - update: STR_MINE_CRY
+    refNode: *FLAT_TIME
+  - update: STR_MINE_KNOCKOUT
+    refNode: *FLAT_TIME
+  - update: STR_MINE_FRAG_PS
+    refNode: *FLAT_TIME
+  - update: STR_HOLOGAL_PAD
+    refNode: *FLAT_TIME
+  - update: STR_MUMBLEBALL
+    refNode: *FLAT_TIME
+  - update: STR_SMOKE_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_FOAM_GRENADE
+    refNode: *FLAT_TIME
+  - update: STR_HOLY_HANDGRENADE
+    refNode: *FLAT_TIME
+  - update: STR_STASIS_GRENADE
+    refNode: *FLAT_TIME

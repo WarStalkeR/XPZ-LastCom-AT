@@ -1,0 +1,102 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_HWP_SENTRY_SPIKE
+    refNode: *FLAT_TIME
+  - update: STR_LOOTED_CYBERDISC_ROCKET
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_GAUSS
+    refNode: *FLAT_TIME
+  - update: AUX_ROTOGUN
+    refNode: *FLAT_TIME
+  - update: AUX_ROTOGUN_HEAVY
+    refNode: *FLAT_TIME
+  - update: AUX_XTURRET_CANNON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTURRET_LASER_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTURRET_GAUSS_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTURRET_PLASMA_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_2MG
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_HMG
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_14MM
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_AC25MM
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_AGL
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_QUAD_RPG
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_105_RECOILLESS
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_TANK_FLAK
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_FLAMER
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_LASCANNON
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_XGAUSS
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_XPLASMA
+    refNode: *FLAT_TIME
+  - update: AUX_ACAR_WEAPON_HAVOK
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_AUTOCANNON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_CANNON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_LASER_CANNON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_WEAPON_GRENADES
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_MG
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_LASER
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_ROCKET_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: AUX_BIOPLASMA_CANNON
+    refNode: *FLAT_TIME
+  - update: AUX_BIOCHEMOGUN
+    refNode: *FLAT_TIME
+  - update: AUX_WOLVERIN_WEAPON_MINIGUN
+    refNode: *FLAT_TIME
+  - update: AUX_WOLVERIN_WEAPON_ELECTRIFIER
+    refNode: *FLAT_TIME
+  - update: AUX_WOLVERIN_WEAPON_RPG
+    refNode: *FLAT_TIME
+  - update: AUX_XEC_WEAPON_TWIN_LASCANNON
+    refNode: *FLAT_TIME
+  - update: AUX_XEC_WEAPON_QUAD_LASCANNON
+    refNode: *FLAT_TIME
+  - update: AUX_XEC_WEAPON_TWIN_XGAUSS
+    refNode: *FLAT_TIME
+  - update: AUX_XEC_WEAPON_TWIN_XPLASMA
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_AUTO_MORTAR
+    refNode: *FLAT_TIME
+  - update: AUX_RETRIBUTION_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_PSI_CANNON
+    refNode: *FLAT_TIME
+  - update: AUX_AUTO_AXE
+    refNode: *FLAT_TIME
+  - update: AUX_SHOOTA_MK3
+    refNode: *FLAT_TIME
+  - update: AUX_HOVERBIKE_LAUNCHERS
+    refNode: *FLAT_TIME
+  - update: AUX_COPTER_WEAPON_ARIFLE
+    refNode: *FLAT_TIME

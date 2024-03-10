@@ -1,0 +1,474 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_PARROT
+    refNode: *FLAT_TIME
+  - update: STR_WHITERABBIT
+    refNode: *FLAT_TIME
+  - update: STR_BLACK_CAT
+    refNode: *FLAT_TIME
+  - update: STR_WEREDOGE
+    refNode: *FLAT_TIME
+  - update: STR_CYCLOPS_CONVERT
+    refNode: *FLAT_TIME
+  - update: STR_ROBO_PARROT
+    refNode: *FLAT_TIME
+  - update: STR_RED_MAGE_ASC_30
+    refNode: *FLAT_TIME
+  - update: STR_DOCTOR_X_VAMPIRE
+    refNode: *FLAT_TIME
+  - update: STR_DOCTOR_X_KNIGHT_50
+    refNode: *FLAT_TIME
+  - update: STR_DOCTOR_X_KNIGHT_60
+    refNode: *FLAT_TIME
+  - update: STR_ARMOR_DOCTOR_X_KNIGHT
+    refNode: *FLAT_TIME
+  - update: STR_DOCTOR_X_A70
+    refNode: *FLAT_TIME
+  - update: STR_PARROT_BEAK
+    refNode: *FLAT_TIME
+  - update: AUX_ROBO_PARROT_BEAK
+    refNode: *FLAT_TIME
+  - update: AUX_LASER_EYE
+    refNode: *FLAT_TIME
+  - update: AUX_SMELL_SCANNER
+    refNode: *FLAT_TIME
+  - update: AUX_BATTLE_BELL
+    refNode: *FLAT_TIME
+  - update: AUX_PURR_PURR
+    refNode: *FLAT_TIME
+  - update: AUX_PRED_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_POWER_FISTO
+    refNode: *FLAT_TIME
+  - update: AUX_FORCE_LANCE
+    refNode: *FLAT_TIME
+  - update: AUX_PURPLE_ACID_SPIT
+    refNode: *FLAT_TIME
+  - update: AUX_BRIMSTONE_FLAMER
+    refNode: *FLAT_TIME
+  - update: AUX_LIGHTER
+    refNode: *FLAT_TIME
+  - update: AUX_BONG
+    refNode: *FLAT_TIME
+  - update: AUX_PANIC_BUTTON
+    refNode: *FLAT_TIME
+  - update: AUX_GROG_BARREL
+    refNode: *FLAT_TIME
+  - update: AUX_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: AUX_MEDIPACK_PEASANT
+    refNode: *FLAT_TIME
+  - update: AUX_SPACE_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: AUX_MEDICAL_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_SUPER_MEDIPACK
+    refNode: *FLAT_TIME
+  - update: AUX_LNG
+    refNode: *FLAT_TIME
+  - update: AUX_MEDIPACK_EGGHEAD
+    refNode: *FLAT_TIME
+  - update: AUX_VANILLA_HEALING
+    refNode: *FLAT_TIME
+  - update: AUX_IDENT
+    refNode: *FLAT_TIME
+  - update: SPC_ANKH
+    refNode: *FLAT_TIME
+  - update: SPC_OCCULAR
+    refNode: *FLAT_TIME
+  - update: AUX_CRYSTAL_BALL
+    refNode: *FLAT_TIME
+  - update: AUX_ROUND_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_CHITIN_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_SMALL_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_ROMAN_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_CRUSADER_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_GOTHIC_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_TOWER_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_ENERGY_SHIELD_FAKK
+    refNode: *FLAT_TIME
+  - update: AUX_GORGON_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_SKULL_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_MANACLES
+    refNode: *FLAT_TIME
+  - update: AUX_GOOD_TOUCH
+    refNode: *FLAT_TIME
+  - update: AUX_BAD_TOUCH
+    refNode: *FLAT_TIME
+  - update: AUX_BLOOD_MAGIC
+    refNode: *FLAT_TIME
+  - update: AUX_BIOSUIT_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_KILLBOT_LASER
+    refNode: *FLAT_TIME
+  - update: AUX_IRON_WIND
+    refNode: *FLAT_TIME
+  - update: AUX_SLIME_TENTACLES
+    refNode: *FLAT_TIME
+  - update: AUX_SEDUCTION
+    refNode: *FLAT_TIME
+  - update: STR_GENTLE_PUSH
+    refNode: *FLAT_TIME
+  - update: STR_ZOMBIGAL_ABILITIES
+    refNode: *FLAT_TIME
+  - update: AUX_ROSARIUS
+    refNode: *FLAT_TIME
+  - update: AUX_ROSARIUS_REPENTIA
+    refNode: *FLAT_TIME
+  - update: AUX_ROSARIUS_REPENTIA_DREAMLANDS
+    refNode: *FLAT_TIME
+  - update: AUX_INNOCENCE
+    refNode: *FLAT_TIME
+  - update: AUX_GHOST_DAGGER
+    refNode: *FLAT_TIME
+  - update: AUX_KNOIF_POISON
+    refNode: *FLAT_TIME
+  - update: AUX_GNOME_NEEDLE
+    refNode: *FLAT_TIME
+  - update: AUX_RATMEISTER_STAFF
+    refNode: *FLAT_TIME
+  - update: AUX_TURRET_MINIGUN_TERRORIST_SPAWNER_1
+    refNode: *FLAT_TIME
+  - update: AUX_LUCKY_STAR
+    refNode: *FLAT_TIME
+  - update: AUX_PILLOW
+    refNode: *FLAT_TIME
+  - update: AUX_MANACHANNEL
+    refNode: *FLAT_TIME
+  - update: AUX_ONI_FEAR
+    refNode: *FLAT_TIME
+  - update: AUX_MRSHAN_PERSONAL_LAUNCHER
+    refNode: *FLAT_TIME
+  - update: AUX_MRSHAN_PERSONAL_LAUNCHER_SEA
+    refNode: *FLAT_TIME
+  - update: AUX_MRSHAN_PERSONAL_LAUNCHER_SPACE
+    refNode: *FLAT_TIME
+  - update: AUX_MEDIPACK_HERBAL
+    refNode: *FLAT_TIME
+  - update: AUX_REDMAGE_DAGGER
+    refNode: *FLAT_TIME
+  - update: STR_TAMED_REAPER
+    refNode: *FLAT_TIME
+  - update: STR_MUTANT_REAPER
+    refNode: *FLAT_TIME
+  - update: STR_TAMED_BOOMOSAURUS
+    refNode: *FLAT_TIME
+  - update: AUX_MASTERMIND_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_MASTERMIND_BULLHORN
+    refNode: *FLAT_TIME
+  - update: AUX_MECHA_GRABBER
+    refNode: *FLAT_TIME
+  - update: AUX_XEC_SCOUT_ARRAY
+    refNode: *FLAT_TIME
+  - update: AUX_XEC_COOLING_SYSTEM
+    refNode: *FLAT_TIME
+  - update: AUX_HOVERBIKE_BOOOSTERS
+    refNode: *FLAT_TIME
+  - update: SPC_BANE_SPEAKER
+    refNode: *FLAT_TIME
+  - update: SPC_DA_HOWL
+    refNode: *FLAT_TIME
+  - update: AUX_LASER_FIST
+    refNode: *FLAT_TIME
+  - update: AUX_TK_MAGE_HAND
+    refNode: *FLAT_TIME
+  - update: AUX_TOME_LIGHTNING
+    refNode: *FLAT_TIME
+  - update: SPC_CUM_OR_ELSE
+    refNode: *FLAT_TIME
+  - update: AUX_PSI_ORB
+    refNode: *FLAT_TIME
+  - update: STR_GHOST_BEAM
+    refNode: *FLAT_TIME
+  - update: STR_CERO
+    refNode: *FLAT_TIME
+  - update: AUX_AVATAR_MEDALLION
+    refNode: *FLAT_TIME
+  - update: AUX_REDMAGE_HEART
+    refNode: *FLAT_TIME
+  - update: AUX_REDMAGE_GOLDEN_MASK
+    refNode: *FLAT_TIME
+  - update: AUX_HAND_LIGHT
+    refNode: *FLAT_TIME
+  - update: AUX_HAND_LIGHT_ZBOSS
+    refNode: *FLAT_TIME
+  - update: AUX_ANIMATRON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TEC_0_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_CYBERDISC_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_HANABU_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_REAPER_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_CHRYSSALID_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_AQUAMAN_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_CELATID_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_SILACOID_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_SILACOID_WEAPON_MELEE
+    refNode: *FLAT_TIME
+  - update: AUX_ZOMBIE_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_ZOMBIE_INFECTOR_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_STRIX_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_SENTINEL_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_SENTINEL_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_SKELETON_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_ADRONE_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_HDRONE_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_MANHACK_WEAPON
+    refNode: *FLAT_TIME
+  - update: CYCLOPS_GAZE
+    refNode: *FLAT_TIME
+  - update: AUX_DEADLY_CHARM
+    refNode: *FLAT_TIME
+  - update: AUX_BLOOD_STAR
+    refNode: *FLAT_TIME
+  - update: AUX_GHOST_SEDUCTION
+    refNode: *FLAT_TIME
+  - update: AUX_WARP_BLADE
+    refNode: *FLAT_TIME
+  - update: AUX_BOOMOSAURUS_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_BOOMOSAURUS_JAWS
+    refNode: *FLAT_TIME
+  - update: AUX_HALLUCINOID_TENTACLE
+    refNode: *FLAT_TIME
+  - update: AUX_BULLFROG_TONGUE
+    refNode: *FLAT_TIME
+  - update: AUX_NAUGHTY_TENTACLE
+    refNode: *FLAT_TIME
+  - update: AUX_ROCK_T
+    refNode: *FLAT_TIME
+  - update: AUX_MONGORN_FISTO
+    refNode: *FLAT_TIME
+  - update: AUX_HYENA_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_BLOOD_DOG_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_CYBODOGG_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DOGG_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DOGE_BARK
+    refNode: *FLAT_TIME
+  - update: AUX_PAINBRINGER
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_2MG_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_2MG_WEAPON_TURRETED
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_LIGHT_MINIGUN_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_HMG_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_AC25MM_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_TURRETED_AC25MM_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TANK_LASER_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTANK_CANNON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTANK_AUTOCANNON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTANK_GAUSS_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_14MM_MOUNTED
+    refNode: *FLAT_TIME
+  - update: AUX_14MM_MOUNTED_ADV
+    refNode: *FLAT_TIME
+  - update: AUX_XTURRET_14MMCHAINGUN_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_XTURRET_PLASMA_GATLING_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_BIG_TANK_TURRET_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_PIR_TANK_TURRET_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_PYRAMID_EYE
+    refNode: *FLAT_TIME
+  - update: AUX_BEASTMASTER_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DRILL
+    refNode: *FLAT_TIME
+  - update: AUX_GNOME_CANNON
+    refNode: *FLAT_TIME
+  - update: AUX_WERE_CLAWS
+    refNode: *FLAT_TIME
+  - update: ETHEREAL_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_SECTOPOD_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_SECTOPOD_ADVANCED_WEAPON_1
+    refNode: *FLAT_TIME
+  - update: AUX_WRENCH
+    refNode: *FLAT_TIME
+  - update: AUX_RAPIER
+    refNode: *FLAT_TIME
+  - update: AUX_NET
+    refNode: *FLAT_TIME
+  - update: AUX_BURNER
+    refNode: *FLAT_TIME
+  - update: AUX_UAC_SHOTGUN_CURSED
+    refNode: *FLAT_TIME
+  - update: AUX_UAC_RIFLE_CURSED
+    refNode: *FLAT_TIME
+  - update: AUX_UAC_PISTOL_CURSED
+    refNode: *FLAT_TIME
+  - update: AUX_UAC_CHAINGUN_CURSED
+    refNode: *FLAT_TIME
+  - update: AUX_UAC_PLASMAGUN_CURSED
+    refNode: *FLAT_TIME
+  - update: AUX_SPIRIT_FLAMES
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_HELL_BARON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_IMP_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_BLOOD_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_IMP_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_DEMON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_CACODEMON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_SPIDERDEMON_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DOOM_SOUL_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DEMON_SUMMONING
+    refNode: *FLAT_TIME
+  - update: STR_SUMMON_DOOM_SPIDERDEMON_TERRORIST
+    refNode: *FLAT_TIME
+  - update: STR_SUMMON_DOOM_CACODEMON
+    refNode: *FLAT_TIME
+  - update: STR_SUMMON_DOOM_HELL_BARON
+    refNode: *FLAT_TIME
+  - update: LOBSTER_CLAWS
+    refNode: *FLAT_TIME
+  - update: SHARK_BITE
+    refNode: *FLAT_TIME
+  - update: AUX_GOLDEN_SAINT_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_MEGASCORPION_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_MAGGOT_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_GIANTSPIDER_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_CHUPACABRA_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_RATT_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_BEES_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_KRAB_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_VAMPBAT_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_VAMPIRE_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_VAMPIRE_WEAPON_SLOW
+    refNode: *FLAT_TIME
+  - update: AUX_GIANT_BEETLE_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_LAMIA_BITE
+    refNode: *FLAT_TIME
+  - update: AUX_CAT_CLAWS
+    refNode: *FLAT_TIME
+  - update: AUX_GREEN_ACID_SPIT
+    refNode: *FLAT_TIME
+  - update: SPC_PURPLE_ACID_SPIT_WEAK
+    refNode: *FLAT_TIME
+  - update: AUX_GAUSS_AC_2
+    refNode: *FLAT_TIME
+  - update: AUX_WARP_AC_2
+    refNode: *FLAT_TIME
+  - update: STR_UAC_RIFLE_AUX
+    refNode: *FLAT_TIME
+  - update: AUX_SPOTLIGHT
+    refNode: *FLAT_TIME
+  - update: AUX_SPOTLIGHT_SWITCHABLE
+    refNode: *FLAT_TIME
+  - update: AUX_LIGHT_15
+    refNode: *FLAT_TIME
+  - update: AUX_STORMRAT_SHIELD
+    refNode: *FLAT_TIME
+  - update: AUX_SHUTTLE_ATURRET_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_ATURRET_BIG_WEAPON_ERROR1
+    refNode: *FLAT_TIME
+  - update: AUX_ATURRET_BIG_WEAPON_ERROR2
+    refNode: *FLAT_TIME
+  - update: AUX_ATURRET_BIG_WEAPON_ERROR3
+    refNode: *FLAT_TIME
+  - update: AUX_ATURRET_SMALL_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_HOOD_OF_FEAR
+    refNode: *FLAT_TIME
+  - update: AUX_GHOST_BEAM_GRAND
+    refNode: *FLAT_TIME
+  - update: AUX_DEATH_ORDER
+    refNode: *FLAT_TIME
+  - update: AUX_INFERNO
+    refNode: *FLAT_TIME
+  - update: AUX_GHOST_CLAWS
+    refNode: *FLAT_TIME
+  - update: ALIEN_PSI_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_UNLIMITED_RANGE_PSI_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_DREADKNIGHT_FEAR
+    refNode: *FLAT_TIME
+  - update: AUX_HALLUCINOID_PSI_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_TENTACLEHIVE_PSI_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_HYBRID_PSI_WEAPON
+    refNode: *FLAT_TIME
+  - update: AUX_HYBRID_PSI_WEAPON_THINMAN
+    refNode: *FLAT_TIME
+  - update: AUX_HYPNOSIS
+    refNode: *FLAT_TIME
+  - update: AUX_GHOSTLY_FEAR
+    refNode: *FLAT_TIME
+  - update: AUX_BRAINHACK
+    refNode: *FLAT_TIME
+  - update: AUX_PYROKINESIS
+    refNode: *FLAT_TIME
+  - update: AUX_ENTROPY_BLAST
+    refNode: *FLAT_TIME

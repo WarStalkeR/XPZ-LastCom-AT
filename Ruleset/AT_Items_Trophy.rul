@@ -1,0 +1,170 @@
+items:
+  - &FLAT_TIME
+    ignore: FLAT_TIME_REF
+    flatAimed: &FLAT
+      time: true
+    flatSnap: *FLAT
+    flatAuto: *FLAT
+    flatMelee: *FLAT
+    flatUse: *FLAT
+    flatThrow: *FLAT
+    flatPrime: *FLAT
+    flatUnprime: *FLAT
+  - update: STR_BOUNTY_HUNTING_C_PASS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_B_PASS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_A_PASS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_PEACEMAKER
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_EAGLE
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_PIRANHA
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_JACK_FAVOR
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_CANNON
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_SUPERCHARGER
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_SOLDIER_X
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_AUTOCANNONS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_PLASMA_BLADES
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_DINOSAUR
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_CONTRABAND
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_BLACK_ADDER
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_MINI_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_HARPOON_CARBINE
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_MAGNUM
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_BANK_FAVORS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_OGRE_SHOTGUN
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_MILITARY_SUPPLIES
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_BIG_GUN
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_PERSUADOTRON
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_HAND_MORTAR
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_OMEGA_RIFLE
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_ALENIUM
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_SILENCED_PISTOL
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_MARTIAL_ARTS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_DURATHREAD
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_ALLIANCE_FAVORS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_ASG12
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_SPIKE_ROCKETS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_M_LASERS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_HOLOSUIT
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_SAYA
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_CITY_PASS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_PARTS_MC
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_DATING_SAYA
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_WHITE_DRAGON_1
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_WHITE_DRAGON_2
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_WHITE_DRAGON_3
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_LUNAR_WARD
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_WIZ_BOOKS
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_WHITE_RABBIT
+    refNode: *FLAT_TIME
+  - update: STR_BOUNTY_HUNTING_PRIZE_WIZ_RESOURCES
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_CREDIT_GOBLIN_ZAXX
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_CREDIT_JACK
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_CREDIT_MUTANT_ALLIANCE
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_CREDIT_WIZ_BIZ
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_CREDIT_WHITE_DRAGON
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_500_GOBLIN_ZAXX
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_1250_GOBLIN_ZAXX
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_50_JACK
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_150_JACK
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_200_JACK
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_800_JACK
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_50_MUTANT_ALLIANCE
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_75_MUTANT_ALLIANCE
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_TARGET_100_WIZ_BIZ
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_DEEP_ONE_DESTROYER
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_ETHEREAL_DESTROYER
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_GAMBLER
+    refNode: *FLAT_TIME
+  - update: STR_TROPHY_WORLD_IS_YOURS
+    refNode: *FLAT_TIME
+  - update: STR_SPY_BADGE
+    refNode: *FLAT_TIME
+  - update: STR_CASINO_KUPON_1
+    refNode: *FLAT_TIME
+  - update: STR_CASINO_KUPON_2
+    refNode: *FLAT_TIME
+  - update: STR_CASINO_KUPON_3
+    refNode: *FLAT_TIME
+  - update: STR_CASINO_KUPON_4
+    refNode: *FLAT_TIME
+  - update: STR_CASINO_KUPON_5
+    refNode: *FLAT_TIME
+  - update: STR_CASINO_KUPON_6
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_C
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_D
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_M
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_00
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_01
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_02
+    refNode: *FLAT_TIME
+  - update: STR_CREDIT_CHIP_03
+    refNode: *FLAT_TIME
+  - update: STR_BRAINER_CLAIM_TICKET
+    refNode: *FLAT_TIME
