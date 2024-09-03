@@ -68,6 +68,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_CORPSE_SP_BABYDOLL
     refNode: *FLAT_TIME
+  - update: STR_CORPSE_SP_AMBER
+    refNode: *FLAT_TIME
   - update: STR_CORPSE_PIR_GREMRIN
     refNode: *FLAT_TIME
   - update: STR_CORPSE_PIR_MAGICAL_OUTFIT
@@ -344,6 +346,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_CORPSE_SLAVE_GI
     refNode: *FLAT_TIME
+  - update: STR_CORPSE_HERO_KARATE_OUTFIT
+    refNode: *FLAT_TIME
   - update: STR_CORPSE_SLAVE_ARMOR_POINTMAN
     refNode: *FLAT_TIME
   - update: STR_CORPSE_SLAVE_ARMOR_STRONGMAN
@@ -485,6 +489,8 @@ items:
   - update: STR_CORPSE_GNOME_GLITTER
     refNode: *FLAT_TIME
   - update: STR_CORPSE_GNOME_EXPERIMENT
+    refNode: *FLAT_TIME
+  - update: STR_CORPSE_GNOME_FIRESTARTER
     refNode: *FLAT_TIME
   - update: STR_CORPSE_GNOME_EXPLORER
     refNode: *FLAT_TIME

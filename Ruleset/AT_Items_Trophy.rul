@@ -10,6 +10,8 @@ items:
     flatThrow: *FLAT
     flatPrime: *FLAT
     flatUnprime: *FLAT
+  - update: STR_GDX_117
+    refNode: *FLAT_TIME
   - update: STR_BOUNTY_HUNTING_C_PASS
     refNode: *FLAT_TIME
   - update: STR_BOUNTY_HUNTING_B_PASS
@@ -137,6 +139,8 @@ items:
   - update: STR_TROPHY_WORLD_IS_YOURS
     refNode: *FLAT_TIME
   - update: STR_SPY_BADGE
+    refNode: *FLAT_TIME
+  - update: STR_CAPTAINS_11_TOKEN
     refNode: *FLAT_TIME
   - update: STR_CASINO_KUPON_1
     refNode: *FLAT_TIME

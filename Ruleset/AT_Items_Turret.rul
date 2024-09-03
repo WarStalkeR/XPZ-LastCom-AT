@@ -20,6 +20,8 @@ items:
     refNode: *FLAT_TIME
   - update: AUX_ROTOGUN_HEAVY
     refNode: *FLAT_TIME
+  - update: AUX_ROTOGUN_HEAVY_ENEMY
+    refNode: *FLAT_TIME
   - update: AUX_XTURRET_CANNON_WEAPON
     refNode: *FLAT_TIME
   - update: AUX_XTURRET_LASER_WEAPON

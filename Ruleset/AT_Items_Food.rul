@@ -82,3 +82,5 @@ items:
     refNode: *FLAT_TIME
   - update: STR_MANA_POTION
     refNode: *FLAT_TIME
+  - update: STR_REJUVENATION_POTION
+    refNode: *FLAT_TIME

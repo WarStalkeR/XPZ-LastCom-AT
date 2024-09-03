@@ -46,6 +46,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_COBRA_STAFF
     refNode: *FLAT_TIME
+  - update: STR_PRISM_STAFF
+    refNode: *FLAT_TIME
   - update: STR_PHANTOM_WHIP
     refNode: *FLAT_TIME
   - update: STR_STAFF_OF_EXPLOSION

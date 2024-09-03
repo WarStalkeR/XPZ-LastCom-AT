@@ -64,6 +64,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_SICKLE
     refNode: *FLAT_TIME
+  - update: STR_THUNDER_SICKLE
+    refNode: *FLAT_TIME
   - update: STR_RUSTY_BLADE
     refNode: *FLAT_TIME
   - update: STR_WRAITH_BLADE

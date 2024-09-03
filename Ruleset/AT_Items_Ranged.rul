@@ -178,6 +178,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_SMG_RAMSH
     refNode: *FLAT_TIME
+  - update: STR_SMG_BM_K
+    refNode: *FLAT_TIME
   - update: STR_SKORPION
     refNode: *FLAT_TIME
   - update: STR_LYNX
@@ -713,6 +715,8 @@ items:
   - update: STR_FLAMETHROWER
     refNode: *FLAT_TIME
   - update: STR_FLAMETHROWER_LR
+    refNode: *FLAT_TIME
+  - update: STR_FLAMETHROWER_FIRESTARTER
     refNode: *FLAT_TIME
   - update: STR_HEAVY_FLAMER
     refNode: *FLAT_TIME

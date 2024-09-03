@@ -126,6 +126,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_DRUG_DISPENSOR
     refNode: *FLAT_TIME
+  - update: STR_DURATHREAD_BACKPACK
+    refNode: *FLAT_TIME
   - update: STR_GRAV_DAMPER
     refNode: *FLAT_TIME
   - update: STR_ENERGY_SHIELD_SMALL

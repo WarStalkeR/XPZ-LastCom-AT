@@ -104,6 +104,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_DYNAMITE
     refNode: *FLAT_TIME
+  - update: STR_THE_FINAL_COUNTDOWN
+    refNode: *FLAT_TIME
   - update: STR_COV
     refNode: *FLAT_TIME
   - update: STR_HIGH_EXPLOSIVE

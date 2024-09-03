@@ -100,6 +100,8 @@ items:
     refNode: *FLAT_TIME
   - update: STR_MUTANT_BLESSINGS
     refNode: *FLAT_TIME
+  - update: STR_WIFE_MISTREATMENT_BILL
+    refNode: *FLAT_TIME
   - update: STR_MUTANT_COMPLAINT
     refNode: *FLAT_TIME
   - update: STR_GOVT_FINE
